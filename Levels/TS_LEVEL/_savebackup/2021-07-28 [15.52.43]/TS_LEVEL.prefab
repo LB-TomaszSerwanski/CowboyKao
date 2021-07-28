@@ -628,12 +628,12 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12502575641881108175]/Transform Data/Translate/0",
-                    "value": 1.1811866760253907
+                    "value": 1.1811866760253909
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12502575641881108175]/Transform Data/Translate/1",
-                    "value": 36.611202239990237
+                    "value": 36.61120223999024
                 },
                 {
                     "op": "replace",
