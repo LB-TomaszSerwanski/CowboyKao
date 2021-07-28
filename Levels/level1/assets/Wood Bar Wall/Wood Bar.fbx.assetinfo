@@ -1,0 +1,46 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{D0889EE2-1309-5935-B8E6-66B13F3E2E0F}",
+            "name": "Wood Bar",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Group_003",
+                    "RootNode.Group_001"
+                ]
+            },
+            "MaterialSlots": [
+                "DefaultMaterial"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Wood Bar",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Group_003",
+                    "RootNode.Group_001"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{39F5B4F0-F0DF-5421-BED6-8648F143A615}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}

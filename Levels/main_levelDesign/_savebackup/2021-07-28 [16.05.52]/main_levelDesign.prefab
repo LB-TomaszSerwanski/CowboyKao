@@ -11217,6 +11217,96 @@
                 }
             }
         },
+        "Entity_[45773133400343]": {
+            "Id": "Entity_[45773133400343]",
+            "Name": "Fog",
+            "Components": {
+                "Component_[11488165534608617156]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11488165534608617156
+                },
+                "Component_[11799505946489108055]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11799505946489108055
+                },
+                "Component_[15442376494502060282]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15442376494502060282
+                },
+                "Component_[16952993025771606524]": {
+                    "$type": "AZ::Render::EditorPostFxLayerComponent",
+                    "Id": 16952993025771606524
+                },
+                "Component_[17418584755061760255]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17418584755061760255
+                },
+                "Component_[244376709052369310]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 244376709052369310
+                },
+                "Component_[550243842672122687]": {
+                    "$type": "SelectionComponent",
+                    "Id": 550243842672122687
+                },
+                "Component_[5930615564151884710]": {
+                    "$type": "AZ::Render::EditorDeferredFogComponent",
+                    "Id": 5930615564151884710,
+                    "Controller": {
+                        "Configuration": {
+                            "FogStartDistance": 0.30000001192092898,
+                            "FogEndDistance": 30.0,
+                            "FogMinHeight": 15.0,
+                            "FogMaxHeight": -11.0,
+                            "NoiseTexCoordScale": [
+                                0.009999999776482582,
+                                0.010000200010836125
+                            ],
+                            "NoiseTexCoordVelocity": [
+                                0.004000000189989805,
+                                0.0031999999191612007
+                            ],
+                            "NoiseTexCoord2Scale": [
+                                16.0,
+                                -26.97610092163086
+                            ],
+                            "NoiseTexCoord2Velocity": [
+                                0.0027499001007527115,
+                                -0.004000000189989805
+                            ],
+                            "OctavesBlendFactor": 0.656000018119812,
+                            "IsEnabled": true,
+                            "UseNoiseTextureShaderOption": true,
+                            "EnableFogLayerShaderOption": true
+                        }
+                    }
+                },
+                "Component_[6337356652687706772]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6337356652687706772
+                },
+                "Component_[7822808942257344923]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7822808942257344923,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            7.121668338775635,
+                            -763.633056640625,
+                            33.737144470214847
+                        ]
+                    }
+                },
+                "Component_[8519202787219370820]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8519202787219370820
+                },
+                "Component_[9797071490585961792]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9797071490585961792
+                }
+            }
+        },
         "Entity_[4579899743058]": {
             "Id": "Entity_[4579899743058]",
             "Name": "BrickWall",
@@ -19402,10 +19492,10 @@
                         "PhysicsAsset": {
                             "Asset": {
                                 "assetId": {
-                                    "guid": "{86729ED0-732A-54E3-8325-252C3CE465FD}",
-                                    "subId": 2329151249
+                                    "guid": "{0DFC0DF7-69C5-5D9B-AC00-8F2B5202E02A}",
+                                    "subId": 1974739315
                                 },
-                                "assetHint": "assets/cowboy/wood bar wall/wood bar.pxmesh"
+                                "assetHint": "levels/level1/assets/wood bar wall/wood bar.pxmesh"
                             },
                             "Configuration": {
                                 "Scale": [
@@ -19415,11 +19505,11 @@
                                 ],
                                 "PhysicsAsset": {
                                     "assetId": {
-                                        "guid": "{86729ED0-732A-54E3-8325-252C3CE465FD}",
-                                        "subId": 2329151249
+                                        "guid": "{0DFC0DF7-69C5-5D9B-AC00-8F2B5202E02A}",
+                                        "subId": 1974739315
                                     },
                                     "loadBehavior": "QueueLoad",
-                                    "assetHint": "assets/cowboy/wood bar wall/wood bar.pxmesh"
+                                    "assetHint": "levels/level1/assets/wood bar wall/wood bar.pxmesh"
                                 }
                             }
                         },
