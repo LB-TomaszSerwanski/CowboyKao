@@ -1,0 +1,48 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{FFE1B59C-5117-5F84-91C9-4795B9BB8898}",
+            "name": "magic_idol_mesh",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.magic_idol_mesh"
+                ]
+            },
+            "MaterialSlots": [
+                "Magic_idol"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "magic_idol_mesh",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.magic_idol_mesh",
+                    "RootNode.magic_idol_mesh.transform",
+                    "RootNode.magic_idol_mesh.UVChannel_1",
+                    "RootNode.magic_idol_mesh.Magic_idol"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule",
+                        "updateMaterials": true,
+                        "removeMaterials": true
+                    }
+                ]
+            },
+            "id": "{6CB8E58C-9302-5B46-AC26-F80E8F6D28C6}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}

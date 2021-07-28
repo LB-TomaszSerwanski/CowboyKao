@@ -1,0 +1,80 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{EF458FEC-61FD-5F35-948A-B28D21A0DF47}",
+            "name": "Torii_Gate",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.JinJa_1_satsu__5",
+                    "RootNode.JinJa_1_satsu__4",
+                    "RootNode.JinJa_1_satsu__3",
+                    "RootNode.JinJa_1_satsu__2",
+                    "RootNode.JinJa_1_satsu__1",
+                    "RootNode.JinJa_1_satsu__6",
+                    "RootNode.JinJa_1_Name_roap",
+                    "RootNode.JinJa_1_Name_parts",
+                    "RootNode.Jinja_1_roap",
+                    "RootNode.JinJa_1_Name",
+                    "RootNode.JinJa_1",
+                    "RootNode.Grp_JinJa_2_Half_1",
+                    "RootNode.Grp_JinJa_2_Half_2",
+                    "RootNode.Grp_JinJa_2_Half_1.JinJa_2_half_suzu",
+                    "RootNode.Grp_JinJa_2_Half_1.JinJa_2_half",
+                    "RootNode.Grp_JinJa_2_Half_2.JinJa_2_half_suzu",
+                    "RootNode.Grp_JinJa_2_Half_2.JinJa_2_half"
+                ]
+            },
+            "MaterialSlots": [
+                "Jinja_1_c",
+                "Jinja_roap_c",
+                "Jinja_2_c"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Torii_Gate",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.JinJa_1_satsu__5",
+                    "RootNode.JinJa_1_satsu__4",
+                    "RootNode.JinJa_1_satsu__3",
+                    "RootNode.JinJa_1_satsu__2",
+                    "RootNode.JinJa_1_satsu__1",
+                    "RootNode.JinJa_1_satsu__6",
+                    "RootNode.JinJa_1_Name_roap",
+                    "RootNode.JinJa_1_Name_parts",
+                    "RootNode.Jinja_1_roap",
+                    "RootNode.JinJa_1_Name",
+                    "RootNode.JinJa_1",
+                    "RootNode.Grp_JinJa_2_Half_1",
+                    "RootNode.Grp_JinJa_2_Half_2",
+                    "RootNode.Grp_JinJa_2_Half_1.JinJa_2_half_suzu",
+                    "RootNode.Grp_JinJa_2_Half_1.JinJa_2_half",
+                    "RootNode.Grp_JinJa_2_Half_2.JinJa_2_half_suzu",
+                    "RootNode.Grp_JinJa_2_Half_2.JinJa_2_half"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{DB453B53-40EB-5D8E-BD97-211811F390E2}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}
