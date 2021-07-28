@@ -1,0 +1,47 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{86AF1F7E-C6A3-51B3-93E2-531DC00229A3}",
+            "name": "Japanese_Temple",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Japanese_Shrine"
+                ]
+            },
+            "MaterialSlots": [
+                "Japanese_Shrine_Mat"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Japanese_Temple",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Japanese_Shrine",
+                    "RootNode.Japanese_Shrine.transform",
+                    "RootNode.Japanese_Shrine.UVMap",
+                    "RootNode.Japanese_Shrine.Japanese_Shrine_Mat"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule",
+                        "updateMaterials": true
+                    }
+                ]
+            },
+            "id": "{DFD05C50-3A99-5605-B2E4-7475DAC2599C}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}

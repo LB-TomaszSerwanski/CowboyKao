@@ -1,0 +1,27 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.6200961470603943,
+                0.3181353509426117,
+                0.15333791077136994,
+                1.0
+            ],
+            "factor": 0.5199999809265137,
+            "textureMap": "Assets/RockyGround/rocky-worn-ground-albedo.png",
+            "textureMapUv": "Unwrapped"
+        },
+        "metallic": {
+            "textureMap": "Assets/RockyGround/rocky-worn-ground-metal.png",
+            "textureMapUv": "Unwrapped"
+        },
+        "roughness": {
+            "textureMap": "Assets/RockyGround/rocky-worn-ground_Roughness.png",
+            "textureMapUv": "Unwrapped"
+        }
+    }
+}

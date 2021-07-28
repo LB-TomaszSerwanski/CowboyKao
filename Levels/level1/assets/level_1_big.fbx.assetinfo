@@ -1,0 +1,49 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{8ABD6BAE-97C1-52DA-AE7B-FFE502633B81}",
+            "name": "level_1_big",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Plane.transform",
+                    "RootNode.Plane.UVMap",
+                    "RootNode.Plane.DefaultMaterial"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.Light",
+                    "RootNode.Camera",
+                    "RootNode.Plane"
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "level_1_big",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Light",
+                    "RootNode.Camera",
+                    "RootNode.Plane",
+                    "RootNode.Plane.transform",
+                    "RootNode.Plane.UVMap",
+                    "RootNode.Plane.DefaultMaterial"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{0D56A6AB-7867-5FAB-A7F2-519602A9937B}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}

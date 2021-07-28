@@ -1,0 +1,17 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/Skin.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Levels/MSZ Assets/Japanese_Temple/Textures/Japanese_Temple_Paint2_Japanese_Shrine_Mat_AlbedoTransparency.png"
+        },
+        "normal": {
+            "textureMap": "Levels/MSZ Assets/Japanese_Temple/Textures/Japanese_Temple_Paint2_Japanese_Shrine_Mat_Normal.png"
+        },
+        "roughness": {
+            "textureMap": "Levels/MSZ Assets/Japanese_Temple/Textures/Japanese_Temple_Paint2_Japanese_Shrine_Mat_AO.png"
+        }
+    }
+}

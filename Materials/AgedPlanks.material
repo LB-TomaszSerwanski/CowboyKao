@@ -1,0 +1,50 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.9243610501289368,
+                0.30571451783180239,
+                0.26358434557914736,
+                1.0
+            ],
+            "factor": 0.6299999952316284,
+            "textureMap": "Assets/WoodPlanks/agedplanks1-albedo.png"
+        },
+        "emissive": {
+            "color": [
+                0.8104981780052185,
+                0.27826350927352908,
+                0.48630502820014956,
+                1.0
+            ],
+            "intensity": -5.78000020980835
+        },
+        "general": {
+            "applySpecularAA": true,
+            "forwardPassIBLSpecular": true
+        },
+        "metallic": {
+            "factor": 1.0
+        },
+        "normal": {
+            "factor": 0.8600000143051148,
+            "flipX": true,
+            "flipY": true,
+            "textureMap": "Assets/WoodPlanks/agedplanks1-normal4-ue.png"
+        },
+        "roughness": {
+            "lowerBound": 0.5400000214576721,
+            "textureMap": "Assets/WoodPlanks/agedplanks1-roughness.png",
+            "textureMapUv": "Unwrapped",
+            "upperBound": 0.6700000166893005
+        },
+        "specularF0": {
+            "factor": 1.0,
+            "textureMap": "Assets/WoodPlanks/agedplanks1-ao.png"
+        }
+    }
+}
