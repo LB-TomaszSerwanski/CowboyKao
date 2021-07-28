@@ -1,0 +1,34 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.5882353186607361,
+                0.5882353186607361,
+                0.5882353186607361,
+                1.0
+            ],
+            "textureMap": "Assets/Magic Post/textures/Magic_idol_defuse.tga"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "normal": {
+            "textureMap": "Assets/Magic Post/textures/Magic_idol_normal.tga"
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "specularF0": {
+            "textureMap": "Assets/Magic Post/textures/Magic_idol_specular.tga"
+        }
+    }
+}
