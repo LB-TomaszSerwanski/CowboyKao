@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ATLConfig atl_name="generated_controls">
+  <AudioEnvironments/>
+  <AudioRTPCs>
+    <ATLRtpc atl_name="Acoustic_Banner" path="Factory Reflect Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Acoustic_Banner"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Anechoic" path="Factory Reflect Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Anechoic"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Brick" path="Factory Reflect Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Brick"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Carpet" path="Factory Reflect Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Carpet"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Concrete" path="Factory Reflect Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Concrete"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Cork_Tiles" path="Factory Reflect Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Cork_Tiles"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Curtains" path="Factory Reflect Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Curtains"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Drywall" path="Factory Reflect Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Drywall"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Fabric" path="Factory Reflect Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Fabric"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Mountain" path="Factory Reflect Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Mountain"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Tile" path="Factory Reflect Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Tile"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Wood" path="Factory Reflect Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Wood"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Wood_Bright" path="Factory Reflect Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Wood_Bright"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Wood_Deep" path="Factory Reflect Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Wood_Deep"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="princess" path="Default Work Unit">
+      <WwiseRtpc wwise_name="princess"/>
+    </ATLRtpc>
+  </AudioRTPCs>
+  <AudioSwitches/>
+  <AudioTriggers>
+    <ATLTrigger atl_name="Play" path="Default Work Unit">
+      <WwiseEvent wwise_name="Play"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="Stop" path="Default Work Unit">
+      <WwiseEvent wwise_name="Stop"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="test_event_10_bank6_referenced_event_bank2_streamed" path="Default Work Unit">
+      <WwiseEvent wwise_name="test_event_10_bank6_referenced_event_bank2_streamed"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="test_event_11_bank7_streamed_target" path="Default Work Unit">
+      <WwiseEvent wwise_name="test_event_11_bank7_streamed_target"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="test_event_12_bank7_streamed_target" path="Default Work Unit">
+      <WwiseEvent wwise_name="test_event_12_bank7_streamed_target"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="test_event_1_bank1_embedded_target" path="Default Work Unit">
+      <WwiseEvent wwise_name="test_event_1_bank1_embedded_target"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="test_event_2_bank1_streamed_target" path="Default Work Unit">
+      <WwiseEvent wwise_name="test_event_2_bank1_streamed_target"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="test_event_3_bank2_embedded_target" path="Default Work Unit">
+      <WwiseEvent wwise_name="test_event_3_bank2_embedded_target"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="test_event_4_bank2_streamed_target" path="Default Work Unit">
+      <WwiseEvent wwise_name="test_event_4_bank2_streamed_target"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="test_event_5_bank3_embedded_target_bank4" path="Default Work Unit">
+      <WwiseEvent wwise_name="test_event_5_bank3_embedded_target_bank4"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="test_event_6_bank3_streamed_target_bank4" path="Default Work Unit">
+      <WwiseEvent wwise_name="test_event_6_bank3_streamed_target_bank4"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="test_event_7_bank5_referenced_event_bank1_embedded" path="Default Work Unit">
+      <WwiseEvent wwise_name="test_event_7_bank5_referenced_event_bank1_embedded"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="test_event_8_bank5_referenced_event_bank1_streamed" path="Default Work Unit">
+      <WwiseEvent wwise_name="test_event_8_bank5_referenced_event_bank1_streamed"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="test_event_9_bank6_referenced_event_bank2_embedded" path="Default Work Unit">
+      <WwiseEvent wwise_name="test_event_9_bank6_referenced_event_bank2_embedded"/>
+    </ATLTrigger>
+  </AudioTriggers>
+  <AudioPreloads>
+    <ATLPreloadRequest atl_name="custom_soundbank" atl_type="AutoLoad" path="SoundBanks">
+      <WwiseFile wwise_name="custom_soundbank.bnk"/>
+    </ATLPreloadRequest>
+    <ATLPreloadRequest atl_name="test_bank1" atl_type="AutoLoad" path="SoundBanks">
+      <WwiseFile wwise_name="test_bank1.bnk"/>
+    </ATLPreloadRequest>
+    <ATLPreloadRequest atl_name="test_bank2" atl_type="AutoLoad" path="SoundBanks">
+      <WwiseFile wwise_name="test_bank2.bnk"/>
+    </ATLPreloadRequest>
+    <ATLPreloadRequest atl_name="test_bank3" atl_type="AutoLoad" path="SoundBanks">
+      <WwiseFile wwise_name="test_bank3.bnk"/>
+    </ATLPreloadRequest>
+    <ATLPreloadRequest atl_name="test_bank4" atl_type="AutoLoad" path="SoundBanks">
+      <WwiseFile wwise_name="test_bank4.bnk"/>
+    </ATLPreloadRequest>
+    <ATLPreloadRequest atl_name="test_bank5" atl_type="AutoLoad" path="SoundBanks">
+      <WwiseFile wwise_name="test_bank5.bnk"/>
+    </ATLPreloadRequest>
+    <ATLPreloadRequest atl_name="test_bank6" atl_type="AutoLoad" path="SoundBanks">
+      <WwiseFile wwise_name="test_bank6.bnk"/>
+    </ATLPreloadRequest>
+    <ATLPreloadRequest atl_name="test_bank7" atl_type="AutoLoad" path="SoundBanks">
+      <WwiseFile wwise_name="test_bank7.bnk"/>
+    </ATLPreloadRequest>
+  </AudioPreloads>
+</ATLConfig>

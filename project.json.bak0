@@ -1,0 +1,15 @@
+{
+    "project_name": "CowboyKao",
+    "origin": "The primary repo for CowboyKao goes here: i.e. http://www.mydomain.com",
+    "license": "What license CowboyKao uses goes here: i.e. https://opensource.org/licenses/MIT",
+    "display_name": "CowboyKao",
+    "summary": "A short description of CowboyKao.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "CowboyKao"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de"
+}

@@ -1,0 +1,14 @@
+{
+    "Amazon":
+    {
+        "CowboyKao.Assets":
+        {
+            "SourcePaths":
+            [
+                "Assets",
+                "ShaderLib",
+                "Shaders"
+            ]
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "version": "1.0",
+    "bankName": "Custom_SoundBank.bnk",
+    "dependencies": [
+        "Init.bnk"
+    ],
+    "includedEvents": [
+        "Play",
+        "Stop"
+    ]
+}

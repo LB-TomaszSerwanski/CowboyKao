@@ -1,0 +1,47 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{4550AB74-C866-5FFA-9FCD-EC41BD2ECE54}",
+            "name": "groundplane_521x521m",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.groundplane_512x512m",
+                    "RootNode.groundplane_512x512m.map1",
+                    "RootNode.groundplane_512x512m.groundplane"
+                ]
+            },
+            "MaterialSlots": [
+                "groundplane"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "groundplane_521x521m",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.groundplane_512x512m",
+                    "RootNode.groundplane_512x512m.map1",
+                    "RootNode.groundplane_512x512m.groundplane"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{94ABA66C-0656-5171-A267-1758A2EB00CE}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}
