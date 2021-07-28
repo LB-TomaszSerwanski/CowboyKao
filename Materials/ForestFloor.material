@@ -1,0 +1,26 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "factor": 0.7099999785423279,
+            "textureMap": "Assets/forest-floor-lmbr/forest_floor_albedo.png",
+            "textureMapUv": "Unwrapped"
+        },
+        "metallic": {
+            "textureMap": "Assets/forest-floor-lmbr/forest_floor_albedo.png"
+        },
+        "normal": {
+            "factor": 0.5600000023841858,
+            "textureMap": "Assets/forest-floor-lmbr/forest_floor_albedo.png"
+        },
+        "parallax": {
+            "textureMap": "Assets/forest-floor-lmbr/forest_floor_Height.png"
+        },
+        "roughness": {
+            "factor": 0.8500000238418579
+        }
+    }
+}
