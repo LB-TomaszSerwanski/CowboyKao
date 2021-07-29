@@ -10076,8 +10076,8 @@
                             "Configuration": {
                                 "Scale": [
                                     10.0,
-                                    10.0,
-                                    10.0
+                                    0.009999999776482582,
+                                    9.5
                                 ],
                                 "PhysicsAsset": {
                                     "assetId": {
@@ -10198,8 +10198,8 @@
                     "Id": 8309560581693252620,
                     "NonUniformScale": [
                         10.0,
-                        10.0,
-                        10.0
+                        0.009999999776482582,
+                        9.5
                     ]
                 },
                 "Component_[9397210480444705117]": {
@@ -19492,10 +19492,10 @@
                         "PhysicsAsset": {
                             "Asset": {
                                 "assetId": {
-                                    "guid": "{86729ED0-732A-54E3-8325-252C3CE465FD}",
-                                    "subId": 2329151249
+                                    "guid": "{0DFC0DF7-69C5-5D9B-AC00-8F2B5202E02A}",
+                                    "subId": 1974739315
                                 },
-                                "assetHint": "assets/cowboy/wood bar wall/wood bar.pxmesh"
+                                "assetHint": "levels/level1/assets/wood bar wall/wood bar.pxmesh"
                             },
                             "Configuration": {
                                 "Scale": [
@@ -19505,11 +19505,11 @@
                                 ],
                                 "PhysicsAsset": {
                                     "assetId": {
-                                        "guid": "{86729ED0-732A-54E3-8325-252C3CE465FD}",
-                                        "subId": 2329151249
+                                        "guid": "{0DFC0DF7-69C5-5D9B-AC00-8F2B5202E02A}",
+                                        "subId": 1974739315
                                     },
                                     "loadBehavior": "QueueLoad",
-                                    "assetHint": "assets/cowboy/wood bar wall/wood bar.pxmesh"
+                                    "assetHint": "levels/level1/assets/wood bar wall/wood bar.pxmesh"
                                 }
                             }
                         },
