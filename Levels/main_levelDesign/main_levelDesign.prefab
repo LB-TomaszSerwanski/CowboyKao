@@ -2839,6 +2839,63 @@
                 }
             }
         },
+        "Entity_[2557441511090]": {
+            "Id": "Entity_[2557441511090]",
+            "Name": "Crosshair",
+            "Components": {
+                "Component_[1011594046806236050]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1011594046806236050
+                },
+                "Component_[10714521205172774901]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10714521205172774901
+                },
+                "Component_[11328301327605774405]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11328301327605774405
+                },
+                "Component_[11844041489464200953]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11844041489464200953
+                },
+                "Component_[14088697890577150082]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 14088697890577150082,
+                    "m_template": {
+                        "$type": "UiCanvasAssetRefComponent",
+                        "CanvasAssetRef": {
+                            "AssetPath": "levels/ui/jshud.uicanvas"
+                        }
+                    }
+                },
+                "Component_[17504768880429126810]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17504768880429126810
+                },
+                "Component_[2188697345231092386]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2188697345231092386,
+                    "Parent Entity": "Entity_[39900623479447]"
+                },
+                "Component_[23379576821094694]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 23379576821094694
+                },
+                "Component_[4288948931036875211]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4288948931036875211
+                },
+                "Component_[740900797157946729]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 740900797157946729
+                },
+                "Component_[8761833644991324587]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8761833644991324587
+                }
+            }
+        },
         "Entity_[2731977128932]": {
             "Id": "Entity_[2731977128932]",
             "Name": "BigTree",
@@ -10716,6 +10773,172 @@
                 "Component_[7750526572076320468]": {
                     "$type": "SelectionComponent",
                     "Id": 7750526572076320468
+                }
+            }
+        },
+        "Entity_[39900623479447]": {
+            "Id": "Entity_[39900623479447]",
+            "Name": "UI",
+            "Components": {
+                "Component_[10880980742328714446]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10880980742328714446
+                },
+                "Component_[11383586329767826939]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11383586329767826939
+                },
+                "Component_[17305797524953688344]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17305797524953688344,
+                    "Parent Entity": "Entity_[1146574390643]"
+                },
+                "Component_[17569203641506052473]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17569203641506052473
+                },
+                "Component_[3478323273933278032]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 3478323273933278032,
+                    "m_name": "StartGame",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{E5EF5419-DB81-5816-9A51-2A41F20C0120}"
+                            },
+                            "assetHint": "scriptcanvas/startgame.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{E5EF5419-DB81-5816-9A51-2A41F20C0120}"
+                            },
+                            "assetHint": "scriptcanvas/startgame.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[6305298081106741254]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6305298081106741254
+                },
+                "Component_[6514150648158733564]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6514150648158733564
+                },
+                "Component_[6744189853210807440]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6744189853210807440
+                },
+                "Component_[8066455003670743971]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8066455003670743971
+                },
+                "Component_[8154762243214608975]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 8154762243214608975,
+                    "m_template": {
+                        "$type": "UiCanvasAssetRefComponent",
+                        "CanvasAssetRef": {
+                            "AssetPath": "levels/ui/jw/menu.uicanvas"
+                        },
+                        "IsAutoLoad": true
+                    }
+                },
+                "Component_[8177019055549611248]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8177019055549611248
+                },
+                "Component_[9407677597211514178]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9407677597211514178
+                }
+            }
+        },
+        "Entity_[4193824050866]": {
+            "Id": "Entity_[4193824050866]",
+            "Name": "LUA_TEMP",
+            "Components": {
+                "Component_[14128608794721293061]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14128608794721293061
+                },
+                "Component_[14502791482868921001]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14502791482868921001
+                },
+                "Component_[15588464498602294710]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15588464498602294710
+                },
+                "Component_[16214370440967041096]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16214370440967041096
+                },
+                "Component_[17935254625723709074]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17935254625723709074,
+                    "Parent Entity": "Entity_[1146574390643]"
+                },
+                "Component_[18389184665870653900]": {
+                    "$type": "ScriptEditorComponent",
+                    "Id": 18389184665870653900,
+                    "ScriptComponent": {
+                        "Properties": {
+                            "Properties": [
+                                {
+                                    "$type": "AZ::ScriptPropertyGenericClassArray",
+                                    "id": 3044643913,
+                                    "name": "ScriptEvents",
+                                    "values": [
+                                        {
+                                            "TypeId": "{9BF12D72-9FE5-4F0E-A115-B92D99FB1CD7}"
+                                        },
+                                        {
+                                            "TypeId": "{9BF12D72-9FE5-4F0E-A115-B92D99FB1CD7}"
+                                        }
+                                    ],
+                                    "elementType": "{9BF12D72-9FE5-4F0E-A115-B92D99FB1CD7}"
+                                }
+                            ]
+                        },
+                        "Script": {
+                            "assetId": {
+                                "guid": "{4EA52CC9-09E4-5A35-A8F3-7DEF1A4078DF}",
+                                "subId": 2
+                            },
+                            "loadBehavior": "QueueLoad",
+                            "assetHint": "levels/main_level/assets/scripts/temp_lua.lua"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{4EA52CC9-09E4-5A35-A8F3-7DEF1A4078DF}",
+                            "subId": 2
+                        },
+                        "assetHint": "levels/main_level/assets/scripts/temp_lua.lua"
+                    }
+                },
+                "Component_[2160127079853359666]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2160127079853359666
+                },
+                "Component_[3066706692111507152]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3066706692111507152
+                },
+                "Component_[4878469539519690389]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4878469539519690389
+                },
+                "Component_[5717052143121453207]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5717052143121453207
+                },
+                "Component_[6002468062975923944]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6002468062975923944
                 }
             }
         },
@@ -20087,6 +20310,13 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 11555733975502575452
                 },
+                "Component_[12268242794518848014]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 12268242794518848014,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
                 "Component_[12920537247062373481]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 12920537247062373481
@@ -20102,6 +20332,16 @@
                 "Component_[16405180672650943296]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 16405180672650943296
+                },
+                "Component_[1834253761579894297]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 1834253761579894297,
+                    "Play Trigger": {
+                        "controlName": "door_fall_play"
+                    },
+                    "Stop Trigger": {
+                        "controlName": "door_fall_stop"
+                    }
                 },
                 "Component_[2325016715335322594]": {
                     "$type": "EditorVisibilityComponent",
@@ -20770,6 +21010,13 @@
                         ]
                     }
                 },
+                "Component_[11129409307090617491]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 11129409307090617491,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
                 "Component_[11439263799169472716]": {
                     "$type": "ScriptEditorComponent",
                     "Id": 11439263799169472716,
@@ -20810,6 +21057,16 @@
                 "Component_[16405180672650943296]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 16405180672650943296
+                },
+                "Component_[18027313092587817805]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 18027313092587817805,
+                    "Play Trigger": {
+                        "controlName": "door_fall_play"
+                    },
+                    "Stop Trigger": {
+                        "controlName": "door_fall_stop"
+                    }
                 },
                 "Component_[2325016715335322594]": {
                     "$type": "EditorVisibilityComponent",
