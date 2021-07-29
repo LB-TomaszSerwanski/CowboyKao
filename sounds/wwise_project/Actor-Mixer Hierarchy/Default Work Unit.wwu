@@ -760,6 +760,65 @@
 						<ActiveSource Name="track_menu" ID="{BA144D16-C036-475A-ABCE-38C4F8A11444}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="track_rin" ID="{FFF383CC-2035-485F-8749-57344700D912}" ShortID="214384013">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{D043A985-5489-4414-B646-95E62A7BA06C}" ShortID="365239436">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="track_rin" ID="{BD593768-F80D-4A41-BE00-536A3D8617F5}" WorkUnitID="{2D571880-E275-4C6D-AC47-641D787245D7}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{229B6E7E-1997-4343-80F1-E6B36CA5675C}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C106A88B-C71B-41A3-944F-68A720682501}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E8A63E2B-B6D7-4CB9-9D71-C0C8E0B8E47A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="track_rin" ID="{2EB1EEF8-B259-4591-9A08-308CC25E54FF}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>track_rin.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="53304325"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="track_rin" ID="{2EB1EEF8-B259-4591-9A08-308CC25E54FF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -244,10 +244,35 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3241173896">
+		<SoundBank Id="1355168291" Language="SFX" Hash="853443661">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2305697590" Language="SFX" Hash="3196645537">
+			<ObjectPath>\SoundBanks\Default Work Unit\track_rin_SoundBank</ObjectPath>
+			<ShortName>track_rin_SoundBank</ShortName>
+			<Path>track_rin_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1014728905" Name="Play_track_rin" ObjectPath="\Events\Default Work Unit\Play_track_rin">
+					<IncludedMemoryFiles>
+						<File Id="53304325" Language="SFX">
+							<ShortName>track_rin.wav</ShortName>
+							<Path>SFX\track_rin_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1895110739" Name="Stop_track_rin" ObjectPath="\Events\Default Work Unit\Stop_track_rin"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="53304325" Language="SFX">
+					<ShortName>track_rin.wav</ShortName>
+					<Path>SFX\track_rin_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="3853126832" Name="track_rin" ObjectPath="\Game Parameters\Default Work Unit\track_rin"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="3234822813" Language="SFX" Hash="2639622742">
 			<ObjectPath>\SoundBanks\Default Work Unit\cowboy_fire_SoundBank</ObjectPath>

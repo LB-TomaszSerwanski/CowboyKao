@@ -48,6 +48,12 @@
 		<ATLTrigger atl_name="Cowboy_hurt_play" path="Cowboy_hurt">
 			<WwiseEvent wwise_name="Play_cowboy_hurt"/>
 		</ATLTrigger>
+		<ATLTrigger atl_name="track_rin_stop" path="track_rin">
+			<WwiseEvent wwise_name="Stop_track_rin"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="track_rin_play" path="track_rin">
+			<WwiseEvent wwise_name="Play_track_rin"/>
+		</ATLTrigger>
 	</AudioTriggers>
 	<AudioRtpcs>
 		<ATLRtpc atl_name="track_background_RTPC" path="track_background">
@@ -74,6 +80,9 @@
 		<ATLRtpc atl_name="Cowboy_hurt_RTPC" path="Cowboy_hurt">
 			<WwiseRtpc wwise_name="Cowboy_hurt"/>
 		</ATLRtpc>
+		<ATLRtpc atl_name="track_rin_RTPC" path="track_rin">
+			<WwiseRtpc wwise_name="track_rin"/>
+		</ATLRtpc>
 	</AudioRtpcs>
 	<AudioPreloads>
 		<ATLPreloadRequest atl_name="track_background_preload" path="track_background" atl_type="AutoLoad">
@@ -99,6 +108,9 @@
 		</ATLPreloadRequest>
 		<ATLPreloadRequest atl_name="Cowboy_hurt_preload" path="Cowboy_hurt" atl_type="AutoLoad">
 			<WwiseFile wwise_name="cowboy_hurt_soundbank.bnk"/>
+		</ATLPreloadRequest>
+		<ATLPreloadRequest atl_name="track_rin_preload" path="track_rin" atl_type="AutoLoad">
+			<WwiseFile wwise_name="track_rin_soundbank.bnk"/>
 		</ATLPreloadRequest>
 	</AudioPreloads>
 </ATLConfig>
