@@ -18,6 +18,7 @@ function unlockBar:ReceiveHit(entityId, damage)
 			Debug.Log("Opening Right Gate")
 			TransformBus.Event.RotateAroundLocalZ(self.entityId, -1.57)
 		end
+		AudioTriggerComponentRequestBus.Event.Play(self.entityId)
 	end
 end
 

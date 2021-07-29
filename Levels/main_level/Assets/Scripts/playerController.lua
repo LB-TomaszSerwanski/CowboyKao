@@ -21,6 +21,7 @@ function playerController:OnActivate()
 	self.inputMouseXHandler = InputEventNotificationBus.Connect(self, InputEventNotificationId("MouseX"))
 --	self.inputMouseYHandler = InputEventNotificationBus.Connect(self, InputEventNotificationId("MouseY"))
 	self.consoleHandler = ConsoleNotificationBus.Connect(self)
+	self.ScriptEventHandler = GamePlay.Connect(self)
 --_______________________________________________Setting up vars
 	self.t = 0
 	self.stp = {showtime = false}
@@ -30,6 +31,8 @@ function playerController:OnActivate()
 	self.jumpTime = 0.5
 	self.playedSound = false
 	self.stepTime = 0
+	self.fallingTime = 0
+	self.isTheGameStarted = false
 	
 	--self.CamRot = self.Properties.CamRot
 	self.cc = 
@@ -88,23 +91,25 @@ end
 
 --________________________________________________________________ TICK ________________________________________________________________
 function playerController:OnTick(dt)
-	self:ShowTime(self, dt)
-	self:CharacterMovement(self, dt)
-	if self.isJumping then
-		if not (CharacterGameplayRequestBus.Event.IsOnGround(self.entityId)) or self.jumpTime > 0 then
-			if not self.playedSound then
-				AudioTriggerComponentRequestBus.Event.Play(self.entityId)
-				self.playedSound = true
+	if self.isTheGameStarted then
+		self:ShowTime(self, dt)
+		self:CharacterMovement(self, dt)
+		if self.isJumping then
+			if not (CharacterGameplayRequestBus.Event.IsOnGround(self.entityId)) or self.jumpTime > 0 then
+				if not self.playedSound then
+					AudioTriggerComponentRequestBus.Event.Play(self.entityId)
+					self.playedSound = true
+				end
+				self.jumpTime = self.jumpTime - dt;
+				--if self.jumpTime < 0.35 then
+					CharacterControllerRequestBus.Event.AddVelocity(self.entityId, Vector3(0,0,10));
+				--end
+			else 
+				--Debug.Log("Finished jumping")
+				self.playedSound = false;
+				self.isJumping = false
+				self.jumpTime = 0.5;
 			end
-			self.jumpTime = self.jumpTime - dt;
-			--if self.jumpTime < 0.35 then
-				CharacterControllerRequestBus.Event.AddVelocity(self.entityId, Vector3(0,0,10));
-			--end
-		else 
-			--Debug.Log("Finished jumping")
-			self.playedSound = false;
-			self.isJumping = false
-			self.jumpTime = 0.5;
 		end
 	end		
 end
@@ -202,8 +207,11 @@ function playerController:OnReleased(value)
 end
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-
-
+--________________________________________________________________ SCRIPT EVENTS ________________________________________________________________
+function playerController:StartGame()
+	Debug.Log("Starting the game...")
+	self.isTheGameStarted = true
+end
 
 
 
