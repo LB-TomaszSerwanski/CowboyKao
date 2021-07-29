@@ -425,6 +425,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_track_rin" ID="{8E8F3432-3E23-4D61-B56E-98D951A2A0F2}">
+					<ChildrenList>
+						<Action Name="" ID="{8C3895D0-41D3-4B87-A09D-8C583E3B3627}" ShortID="1041123794">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="track_rin" ID="{FFF383CC-2035-485F-8749-57344700D912}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_track_rin" ID="{BF7D3620-5DC1-49C3-B289-D63339890CBE}">
+					<ChildrenList>
+						<Action Name="" ID="{EEE497EF-BBBD-492A-AAF3-315487FC9CA0}" ShortID="993128801">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="track_rin" ID="{FFF383CC-2035-485F-8749-57344700D912}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

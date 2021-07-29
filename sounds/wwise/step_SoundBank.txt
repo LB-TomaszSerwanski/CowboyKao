@@ -6,5 +6,5 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	621108255	Step			\Default Work Unit\Step	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	61295413	step	C:\Users\GPC-319\.o3de\Projects\CowboyKao\sounds\wwise_project\.cache\Windows\SFX\step_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\step		124232
+	61295413	step	C:\Users\GPC-602\.o3de\Projects\CowboyKao\sounds\wwise_project\.cache\Windows\SFX\step_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\step		124232
 

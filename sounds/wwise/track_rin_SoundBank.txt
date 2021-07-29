@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1014728905	Play_track_rin			\Default Work Unit\Play_track_rin	
+	1895110739	Stop_track_rin			\Default Work Unit\Stop_track_rin	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3853126832	track_rin			\Default Work Unit\track_rin	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	53304325	track_rin	C:\Users\GPC-602\.o3de\Projects\CowboyKao\sounds\wwise_project\.cache\Windows\SFX\track_rin_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\track_rin		15127576
+

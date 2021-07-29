@@ -7,7 +7,6 @@ local bulletHit =
 
 function bulletHit:OnActivate()
 	self.ScriptEventHandler = HitSE.Connect(self, self.entityId)
-	HitSE.Event.ReceiveHit(self.entityId, 40)
 end
 
 function bulletHit:OnDeactivate()
