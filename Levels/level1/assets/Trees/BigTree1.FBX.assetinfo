@@ -1,0 +1,56 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{8F49D716-C1DB-56B9-98F9-A983A2FE524F}",
+            "name": "BigTree1",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.tywj2_psongshu_02",
+                    "RootNode.tywj2_psongshu_01",
+                    "RootNode.tywj2_psongshu_03",
+                    "RootNode.tywj2_psongshu_10"
+                ]
+            },
+            "MaterialSlots": [
+                "tywj2_psongshu_02",
+                "tywj2_psongshu_01",
+                "tywj2_psongshu_03",
+                "tywj2_psongshu_10"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "BigTree1",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.tywj2_psongshu_02",
+                    "RootNode.tywj2_psongshu_01",
+                    "RootNode.tywj2_psongshu_03",
+                    "RootNode.tywj2_psongshu_10"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{95F70076-DF48-5D6C-AF43-F215BCD74CBB}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}

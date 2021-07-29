@@ -1,0 +1,52 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.09866483509540558,
+                0.0631265714764595,
+                0.029404135420918466,
+                1.0
+            ],
+            "textureMapUv": "Unwrapped"
+        },
+        "irradiance": {
+            "color": [
+                0.08339055627584458,
+                0.07801938056945801,
+                0.0321355015039444,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "Levels/level1/assets/RockyGround/rocky-worn-ground-metal.png",
+            "textureMapUv": "Unwrapped"
+        },
+        "normal": {
+            "flipX": true,
+            "textureMap": "Levels/level1/assets/RockyGround/rocky-worn-ground-normal-dx.png",
+            "textureMapUv": "Unwrapped"
+        },
+        "occlusion": {
+            "diffuseTextureMap": "Levels/level1/assets/RockyGround/rocky-worn-ground-ao.png",
+            "diffuseTextureMapUv": "Unwrapped",
+            "specularTextureMapUv": "Unwrapped"
+        },
+        "roughness": {
+            "textureMap": "Levels/level1/assets/RockyGround/rocky-worn-ground_Roughness.png",
+            "textureMapUv": "Unwrapped"
+        },
+        "specularF0": {
+            "textureMapUv": "Unwrapped"
+        },
+        "uv": {
+            "center": [
+                -17.5,
+                0.5
+            ]
+        }
+    }
+}
