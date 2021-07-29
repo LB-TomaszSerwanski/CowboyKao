@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	60569347	Play_princess			\Default Work Unit\Play_princess	
+	2116709533	Stop_princess			\Default Work Unit\Stop_princess	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2871106020	princess			\Default Work Unit\princess	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	385839069	Clash Royale Princess Sounds (online-audio-converter_com)	C:\Users\GPC-319\.o3de\Projects\CowboyKao\sounds\wwise_project\.cache\Windows\SFX\Clash Royale Princess Sounds (online-audio-converter.com)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Clash Royale Princess Sounds (online-audio-converter_com)		3967120
+
