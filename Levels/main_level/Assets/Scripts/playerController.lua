@@ -28,6 +28,8 @@ function playerController:OnActivate()
 	self.inputRL=0
 	self.isJumping = false
 	self.jumpTime = 0.5
+	self.playedSound = false
+	self.stepTime = 0
 	
 	--self.CamRot = self.Properties.CamRot
 	self.cc = 
@@ -90,10 +92,17 @@ function playerController:OnTick(dt)
 	self:CharacterMovement(self, dt)
 	if self.isJumping then
 		if not (CharacterGameplayRequestBus.Event.IsOnGround(self.entityId)) or self.jumpTime > 0 then
+			if not self.playedSound then
+				AudioTriggerComponentRequestBus.Event.Play(self.entityId)
+				self.playedSound = true
+			end
 			self.jumpTime = self.jumpTime - dt;
-			CharacterControllerRequestBus.Event.AddVelocity(self.entityId, Vector3(0,0,10));
+			--if self.jumpTime < 0.35 then
+				CharacterControllerRequestBus.Event.AddVelocity(self.entityId, Vector3(0,0,10));
+			--end
 		else 
 			--Debug.Log("Finished jumping")
+			self.playedSound = false;
 			self.isJumping = false
 			self.jumpTime = 0.5;
 		end
@@ -178,6 +187,7 @@ function playerController:OnReleased(value)
 		self.inputFB =0;
 		--log(self.inputMov.x .. ", " .. self.inputMov.y .. " | Input FB: " .. value)
 		AnimGraphComponentRequestBus.Event.SetNamedParameterFloat(self.Actor, "Run", self.inputFB);
+
 	end
 	
 	if InputEventNotificationBus.GetCurrentBusId()  == InputEventNotificationId("RL") then
@@ -228,9 +238,16 @@ function playerController:CharacterMovement(self, dt)
 	self.cc.vel_xy = self.cc.vel_x + self.cc.vel_y 
 	if self.cc.vel_xy ~= Vector3(0,0,0) then
 		self.cc.vel_xy = self.cc.vel_xy:GetNormalized() * self.Properties.Speed *dt
+		self.stepTime = self.stepTime - 0.02
+		if self.stepTime < 0 and CharacterGameplayRequestBus.Event.IsOnGround(self.entityId) then
+			AudioTriggerComponentRequestBus.Event.ExecuteTrigger(self.entityId, "step_play")
+			self.stepTime = 0.5
+		end
+		else
+			AudioTriggerComponentRequestBus.Event.ExecuteTrigger(self.entityId, "step_stop")
+			self.stepTime = 0
 	end
 	self.cc.vel = self.cc.vel_xy + self.cc.vel_h
-	
 	--DebugDrawRequestBus.Broadcast.DrawTextOnScreen(tostring(self.cc.vel_x), Color(0,100,100,1), 0.001)
 	--DebugDrawRequestBus.Broadcast.DrawTextOnScreen(tostring(self.cc.vel_y), Color(0,100,100,1), 0.001)
 	--DebugDrawRequestBus.Broadcast.DrawTextOnEntity(self.entityId, tostring(self.cc.vel_xy), Color(0,0,0,1), 0.001)
