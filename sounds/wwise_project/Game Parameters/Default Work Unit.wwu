@@ -12,6 +12,7 @@
 				<GameParameter Name="Step_2" ID="{510EA63A-2F1E-4FAD-9FB2-553A61689836}"/>
 				<GameParameter Name="Track_background" ID="{EC07E1EF-2A53-4422-A72F-551850C3C0BE}"/>
 				<GameParameter Name="Track_menu" ID="{3E2F94C6-FF8A-41F5-BEE9-5F52C94307FA}"/>
+				<GameParameter Name="track_rin" ID="{BD593768-F80D-4A41-BE00-536A3D8617F5}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -11,5 +11,5 @@
         "CowboyKao"
     ],
     "icon_path": "preview.png",
-    "engine": "o3de-install"
+    "engine": "o3de"
 }
