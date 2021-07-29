@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2056095318	Play_cowboy_fire			\Default Work Unit\Play_cowboy_fire	
+	3132229536	Stop_cowboy_fire			\Default Work Unit\Stop_cowboy_fire	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1955993519	Cowboy_fire			\Default Work Unit\Cowboy_fire	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	701714270	cowboy_fire	C:\Users\GPC-319\.o3de\Projects\CowboyKao\sounds\wwise_project\.cache\Windows\SFX\cowboy_fire_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cowboy_fire		61462
+

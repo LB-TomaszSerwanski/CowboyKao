@@ -173,7 +173,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play" ID="{D169C5C3-5AE8-4581-8A0A-E4BD4F4844BD}">
+				<Event Name="Play_princess" ID="{D169C5C3-5AE8-4581-8A0A-E4BD4F4844BD}">
 					<ChildrenList>
 						<Action Name="" ID="{322694B1-8B73-4D45-BBA7-D79EEE62208D}" ShortID="423736130">
 							<PropertyList>
@@ -187,7 +187,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop" ID="{F664865E-59C6-4F3C-9745-887F120D639E}">
+				<Event Name="Stop_princess" ID="{F664865E-59C6-4F3C-9745-887F120D639E}">
 					<ChildrenList>
 						<Action Name="" ID="{ED723862-89D7-4BFA-BFB6-6424BD9BE397}" ShortID="178158930">
 							<PropertyList>
@@ -196,6 +196,230 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Clash Royale Princess Sounds (online-audio-converter_com)" ID="{FAD9C353-204D-41B8-8989-03486D14A39E}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_cowboy_fire" ID="{67D4ACB6-7C4C-4135-9A19-0D336472094E}">
+					<ChildrenList>
+						<Action Name="" ID="{BA45C1B9-5A73-47A5-B650-087D594AD730}" ShortID="24956400">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cowboy_fire" ID="{1B48A1F3-C458-4C71-9BC6-160850D9D1EE}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_cowboy_fire" ID="{AF1C49E5-AE10-42BE-A59A-E3C9388D5A8D}">
+					<ChildrenList>
+						<Action Name="" ID="{BEDCB3E2-DD13-4AF7-AB4E-6F761692A706}" ShortID="890775323">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cowboy_fire" ID="{1B48A1F3-C458-4C71-9BC6-160850D9D1EE}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_cowboy_hurt" ID="{C7B6A6D8-101E-4AEE-9885-DC31965FEC98}">
+					<ChildrenList>
+						<Action Name="" ID="{6F59C835-C8D6-4D24-89E3-CD1197116ACE}" ShortID="201379103">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cowboy_hurt" ID="{AF7B084D-BB20-4A1C-9261-45CCB04990EB}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_cowboy_hurt" ID="{309EC2B0-C520-416F-934A-B795FC0DD30F}">
+					<ChildrenList>
+						<Action Name="" ID="{82C19641-DCC7-4FC4-9769-1297BC28276A}" ShortID="1024715973">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cowboy_hurt" ID="{AF7B084D-BB20-4A1C-9261-45CCB04990EB}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_door_fall" ID="{FE71B305-2C5B-4273-AA88-BEB321978E61}">
+					<ChildrenList>
+						<Action Name="" ID="{F72EAB88-B127-4503-BC87-11311083D0E3}" ShortID="155154090">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="door_fall" ID="{9B25FDD6-9E8B-4CBA-B7CA-6545E01F6F2F}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_door_fall" ID="{1FD7E516-CA29-4DCD-910C-52E2DC2C100E}">
+					<ChildrenList>
+						<Action Name="" ID="{039413E1-1FD8-4307-8992-A3E4182BF3B6}" ShortID="401384528">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="door_fall" ID="{9B25FDD6-9E8B-4CBA-B7CA-6545E01F6F2F}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_punch" ID="{A9F5CC87-9791-49A4-A917-5B050D54801B}">
+					<ChildrenList>
+						<Action Name="" ID="{3D7BC75B-9F56-4EF4-BAAE-B1DA370F5F19}" ShortID="730035977">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="punch" ID="{F82023F7-1DB9-4DDB-B916-C1C77B21CC10}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_punch" ID="{464814EA-E564-4DFB-998B-30C891A8D7BD}">
+					<ChildrenList>
+						<Action Name="" ID="{FD380FBB-3C0B-4826-8A60-BFE8DC4B42E3}" ShortID="165693966">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="punch" ID="{F82023F7-1DB9-4DDB-B916-C1C77B21CC10}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_step" ID="{2B9BFA0E-4742-4AF1-9E48-129D9187D747}">
+					<ChildrenList>
+						<Action Name="" ID="{EE4F0E70-3F48-4B1E-BC24-44B8E73E2B17}" ShortID="623687136">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="step" ID="{9DDA45A8-86CB-4332-873A-6C83EACAEB6F}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_step" ID="{021BC2E6-5F35-489A-964B-3ED5F8784762}">
+					<ChildrenList>
+						<Action Name="" ID="{22D98995-AFD3-4A53-85CC-5DBC191A8EA3}" ShortID="69556055">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="step" ID="{9DDA45A8-86CB-4332-873A-6C83EACAEB6F}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_step_2" ID="{75FE86FF-87CC-4E82-B6BF-2F4E91364ACB}">
+					<ChildrenList>
+						<Action Name="" ID="{90A5D1E1-3C52-4A9D-A21C-E4F4F6683D08}" ShortID="826496578">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="step-2" ID="{F7A8FC5F-7A9D-47FE-9AE3-3157B87B933D}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_step_2" ID="{ED97788B-50BA-452F-9C8F-F1E5930D2810}">
+					<ChildrenList>
+						<Action Name="" ID="{B2F309BF-943A-4DC4-BDF2-0569790CD133}" ShortID="60452673">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="step-2" ID="{F7A8FC5F-7A9D-47FE-9AE3-3157B87B933D}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_track_background" ID="{52F7A3DD-EA22-404D-A597-071CE040C812}">
+					<ChildrenList>
+						<Action Name="" ID="{A6DD7B4A-4915-4E37-9C73-439C615D2F5E}" ShortID="523768535">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="track_background" ID="{DC284713-3F32-4ECD-B6C6-C64F9D694F9B}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_track_background" ID="{6352480D-D373-4F18-B725-E54B39F155E8}">
+					<ChildrenList>
+						<Action Name="" ID="{3D502535-C59F-466B-B17E-E5AA2802309E}" ShortID="751722128">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="track_background" ID="{DC284713-3F32-4ECD-B6C6-C64F9D694F9B}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_track_menu" ID="{69D2B99A-C1F8-41E0-BCF1-205B94EF75BD}">
+					<ChildrenList>
+						<Action Name="" ID="{763B92C7-6611-4853-A85C-7C832B2EDBCD}" ShortID="530395493">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="track_menu" ID="{0D388FFB-9FDA-4ADE-A6CE-32FFFFA2D52C}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_track_menu" ID="{18B40683-3D58-4914-B818-2CEBD20E20FB}">
+					<ChildrenList>
+						<Action Name="" ID="{61A1FC88-771B-4A57-B706-6E35E1D21564}" ShortID="890329801">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="track_menu" ID="{0D388FFB-9FDA-4ADE-A6CE-32FFFFA2D52C}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

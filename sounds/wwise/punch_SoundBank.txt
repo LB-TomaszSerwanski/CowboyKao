@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	913371984	Stop_punch			\Default Work Unit\Stop_punch	
+	3946911806	Play_punch			\Default Work Unit\Play_punch	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	645565787	punch			\Default Work Unit\punch	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	16235040	punch	C:\Users\GPC-319\.o3de\Projects\CowboyKao\sounds\wwise_project\.cache\Windows\SFX\punch_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\punch		30912
+

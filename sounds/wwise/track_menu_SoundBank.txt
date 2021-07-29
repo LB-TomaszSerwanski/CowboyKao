@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2092812507	Play_track_menu			\Default Work Unit\Play_track_menu	
+	2131177357	Stop_track_menu			\Default Work Unit\Stop_track_menu	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4105918236	Track_menu			\Default Work Unit\Track_menu	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	215889669	track_menu	C:\Users\GPC-319\.o3de\Projects\CowboyKao\sounds\wwise_project\.cache\Windows\SFX\track_menu_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\track_menu		26859584
+

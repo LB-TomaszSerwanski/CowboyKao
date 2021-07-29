@@ -1,0 +1,22 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Objects/CowboyRevolver/Actor/dirtyGunTextures/gun_01_diff.tif"
+        },
+        "emissive": {
+            "enable": true,
+            "intensity": 5.0,
+            "textureMap": "Objects/CowboyRevolver/Actor/dirtyGunTextures/gun_01_diff.tif"
+        },
+        "normal": {
+            "textureMap": "Objects/CowboyRevolver/Actor/dirtyGunTextures/gun_01_ddna.tif"
+        },
+        "specularF0": {
+            "textureMap": "Objects/CowboyRevolver/Actor/dirtyGunTextures/gun_01_spec.tif"
+        }
+    }
+}

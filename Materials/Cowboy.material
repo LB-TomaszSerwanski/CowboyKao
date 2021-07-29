@@ -1,0 +1,22 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Characters/Cowboy/Actor/Textures/Cowboy_01_diff.tif"
+        },
+        "emissive": {
+            "enable": true,
+            "intensity": 3.0199999809265138,
+            "textureMap": "Characters/Cowboy/Actor/Textures/Cowboy_01_diff.tif"
+        },
+        "normal": {
+            "textureMap": "Characters/Cowboy/Actor/Textures/Cowboy_01_ddna.tif"
+        },
+        "specularF0": {
+            "textureMap": "Characters/Cowboy/Actor/Textures/Cowboy_01_spec.tif"
+        }
+    }
+}

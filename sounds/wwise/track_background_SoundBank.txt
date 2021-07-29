@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1260795772	Stop_track_background			\Default Work Unit\Stop_track_background	
+	1739080962	Play_track_background			\Default Work Unit\Play_track_background	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3551826437	Track_background			\Default Work Unit\Track_background	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	11299378	track_background	C:\Users\GPC-319\.o3de\Projects\CowboyKao\sounds\wwise_project\.cache\Windows\SFX\track_background_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\track_background		27328576
+

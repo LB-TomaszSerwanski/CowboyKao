@@ -1,0 +1,105 @@
+<ATLConfig atl_name="Custom_sounds">
+	<AudioTriggers>
+		<ATLTrigger atl_name="track_background_stop" path="track_background">
+			<WwiseEvent wwise_name="Stop_track_background"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="track_background_play" path="track_background">
+			<WwiseEvent wwise_name="Play_track_background"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Track_menu_stop" path="Track_menu">
+			<WwiseEvent wwise_name="Stop_track_menu"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Track_menu_play" path="Track_menu">
+			<WwiseEvent wwise_name="Play_track_menu"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Cowboy_fire_stop" path="Cowboy_fire">
+			<WwiseEvent wwise_name="Stop_cowboy_fire"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Cowboy_fire_play" path="Cowboy_fire">
+			<WwiseEvent wwise_name="Play_cowboy_fire"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="step_stop" path="step">
+			<WwiseEvent wwise_name="Stop_step"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="step_play" path="step">
+			<WwiseEvent wwise_name="Play_step"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="step_2_stop" path="step_2">
+			<WwiseEvent wwise_name="Stop_step_2"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="step_2_play" path="step_2">
+			<WwiseEvent wwise_name="Play_step_2"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="punch_stop" path="punch">
+			<WwiseEvent wwise_name="Stop_punch"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="punch_play" path="punch">
+			<WwiseEvent wwise_name="Play_punch"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="door_fall_stop" path="door_fall">
+			<WwiseEvent wwise_name="Stop_door_fall"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="door_fall_play" path="door_fall">
+			<WwiseEvent wwise_name="Play_door_fall"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Cowboy_hurt_stop" path="Cowboy_hurt">
+			<WwiseEvent wwise_name="Stop_cowboy_hurt"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="Cowboy_hurt_play" path="Cowboy_hurt">
+			<WwiseEvent wwise_name="Play_cowboy_hurt"/>
+		</ATLTrigger>
+	</AudioTriggers>
+	<AudioRtpcs>
+		<ATLRtpc atl_name="track_background_RTPC" path="track_background">
+			<WwiseRtpc wwise_name="Track_background"/>
+		</ATLRtpc>
+		<ATLRtpc atl_name="Track_menu_RTPC" path="Track_menu">
+			<WwiseRtpc wwise_name="Track_menu"/>
+		</ATLRtpc>
+		<ATLRtpc atl_name="Cowboy_fire_RTPC" path="Cowboy_fire">
+			<WwiseRtpc wwise_name="Cowboy_fire"/>
+		</ATLRtpc>
+		<ATLRtpc atl_name="step_RTPC" path="step">
+			<WwiseRtpc wwise_name="Step"/>
+		</ATLRtpc>
+		<ATLRtpc atl_name="step_2_RTPC" path="step_2">
+			<WwiseRtpc wwise_name="Step_2"/>
+		</ATLRtpc>
+		<ATLRtpc atl_name="punch_RTPC" path="punch">
+			<WwiseRtpc wwise_name="punch"/>
+		</ATLRtpc>
+		<ATLRtpc atl_name="door_fall_RTPC" path="door_fall">
+			<WwiseRtpc wwise_name="Door_fall"/>
+		</ATLRtpc>
+		<ATLRtpc atl_name="Cowboy_hurt_RTPC" path="Cowboy_hurt">
+			<WwiseRtpc wwise_name="Cowboy_hurt"/>
+		</ATLRtpc>
+	</AudioRtpcs>
+	<AudioPreloads>
+		<ATLPreloadRequest atl_name="track_background_preload" path="track_background" atl_type="AutoLoad">
+			<WwiseFile wwise_name="track_background_soundbank.bnk"/>
+		</ATLPreloadRequest>
+		<ATLPreloadRequest atl_name="track_menu_preload" path="Track_menu" atl_type="AutoLoad">
+			<WwiseFile wwise_name="track_menu_soundbank.bnk"/>
+		</ATLPreloadRequest>
+		<ATLPreloadRequest atl_name="Cowboy_fire_preload" path="Cowboy_fire" atl_type="AutoLoad">
+			<WwiseFile wwise_name="cowboy_fire_soundbank.bnk"/>
+		</ATLPreloadRequest>
+		<ATLPreloadRequest atl_name="step_preload" path="step" atl_type="AutoLoad">
+			<WwiseFile wwise_name="step_soundbank.bnk"/>
+		</ATLPreloadRequest>
+		<ATLPreloadRequest atl_name="step_2_preload" path="step_2" atl_type="AutoLoad">
+			<WwiseFile wwise_name="step_2_soundbank.bnk"/>
+		</ATLPreloadRequest>
+		<ATLPreloadRequest atl_name="punch_preload" path="punch" atl_type="AutoLoad">
+			<WwiseFile wwise_name="punch_soundbank.bnk"/>
+		</ATLPreloadRequest>
+		<ATLPreloadRequest atl_name="door_fall_preload" path="door_fall" atl_type="AutoLoad">
+			<WwiseFile wwise_name="door_fall_soundbank.bnk"/>
+		</ATLPreloadRequest>
+		<ATLPreloadRequest atl_name="Cowboy_hurt_preload" path="Cowboy_hurt" atl_type="AutoLoad">
+			<WwiseFile wwise_name="cowboy_hurt_soundbank.bnk"/>
+		</ATLPreloadRequest>
+	</AudioPreloads>
+</ATLConfig>
+

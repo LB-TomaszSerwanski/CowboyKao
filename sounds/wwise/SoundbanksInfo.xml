@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\o3dedev\o3de\CowboyKao\sounds\wwise_project\</ProjectRoot>
-		<SourceFilesRoot>C:\o3dedev\o3de\CowboyKao\sounds\wwise_project\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\o3dedev\o3de\CowboyKao\sounds\wwise\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\GPC-319\.o3de\Projects\CowboyKao\sounds\wwise_project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\GPC-319\.o3de\Projects\CowboyKao\sounds\wwise_project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\GPC-319\.o3de\Projects\CowboyKao\sounds\wwise\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\o3dedev\o3de\CowboyKao\sounds\wwise_project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\GPC-319\.o3de\Projects\CowboyKao\sounds\wwise_project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -28,29 +28,79 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="298592586" Language="SFX" Hash="905903549">
-			<ObjectPath>\SoundBanks\Default Work Unit\Custom_SoundBank</ObjectPath>
-			<ShortName>Custom_SoundBank</ShortName>
-			<Path>Custom_SoundBank.bnk</Path>
+		<SoundBank Id="79326194" Language="SFX" Hash="2610123871">
+			<ObjectPath>\SoundBanks\Default Work Unit\track_menu_SoundBank</ObjectPath>
+			<ShortName>track_menu_SoundBank</ShortName>
+			<Path>track_menu_SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1256202815" Name="Play" ObjectPath="\Events\Default Work Unit\Play">
+				<Event Id="2092812507" Name="Play_track_menu" ObjectPath="\Events\Default Work Unit\Play_track_menu">
 					<IncludedMemoryFiles>
-						<File Id="385839069" Language="SFX">
-							<ShortName>Clash Royale Princess Sounds (online-audio-converter.com).wav</ShortName>
-							<Path>SFX\Clash Royale Princess Sounds (online-audio-converter.com)_10C4C929.wem</Path>
+						<File Id="215889669" Language="SFX">
+							<ShortName>track_menu.wav</ShortName>
+							<Path>SFX\track_menu_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="788884573" Name="Stop" ObjectPath="\Events\Default Work Unit\Stop"/>
+				<Event Id="2131177357" Name="Stop_track_menu" ObjectPath="\Events\Default Work Unit\Stop_track_menu"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="385839069" Language="SFX">
-					<ShortName>Clash Royale Princess Sounds (online-audio-converter.com).wav</ShortName>
-					<Path>SFX\Clash Royale Princess Sounds (online-audio-converter.com)_10C4C929.wem</Path>
+				<File Id="215889669" Language="SFX">
+					<ShortName>track_menu.wav</ShortName>
+					<Path>SFX\track_menu_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
-				<GameParameter Id="2871106020" Name="princess" ObjectPath="\Game Parameters\Default Work Unit\princess"/>
+				<GameParameter Id="4105918236" Name="Track_menu" ObjectPath="\Game Parameters\Default Work Unit\Track_menu"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="555449325" Language="SFX" Hash="3511624546">
+			<ObjectPath>\SoundBanks\Default Work Unit\step_SoundBank</ObjectPath>
+			<ShortName>step_SoundBank</ShortName>
+			<Path>step_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="99206220" Name="Play_step" ObjectPath="\Events\Default Work Unit\Play_step">
+					<IncludedMemoryFiles>
+						<File Id="61295413" Language="SFX">
+							<ShortName>step.wav</ShortName>
+							<Path>SFX\step_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="328342990" Name="Stop_step" ObjectPath="\Events\Default Work Unit\Stop_step"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="61295413" Language="SFX">
+					<ShortName>step.wav</ShortName>
+					<Path>SFX\step_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="621108255" Name="Step" ObjectPath="\Game Parameters\Default Work Unit\Step"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1010395625" Language="SFX" Hash="1505684695">
+			<ObjectPath>\SoundBanks\Default Work Unit\punch_SoundBank</ObjectPath>
+			<ShortName>punch_SoundBank</ShortName>
+			<Path>punch_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3946911806" Name="Play_punch" ObjectPath="\Events\Default Work Unit\Play_punch">
+					<IncludedMemoryFiles>
+						<File Id="16235040" Language="SFX">
+							<ShortName>punch.wav</ShortName>
+							<Path>SFX\punch_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="913371984" Name="Stop_punch" ObjectPath="\Events\Default Work Unit\Stop_punch"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="16235040" Language="SFX">
+					<ShortName>punch.wav</ShortName>
+					<Path>SFX\punch_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="645565787" Name="punch" ObjectPath="\Game Parameters\Default Work Unit\punch"/>
 			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="1091743888" Language="SFX">
@@ -194,10 +244,160 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2152719158">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3241173896">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3234822813" Language="SFX" Hash="2639622742">
+			<ObjectPath>\SoundBanks\Default Work Unit\cowboy_fire_SoundBank</ObjectPath>
+			<ShortName>cowboy_fire_SoundBank</ShortName>
+			<Path>cowboy_fire_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2056095318" Name="Play_cowboy_fire" ObjectPath="\Events\Default Work Unit\Play_cowboy_fire">
+					<IncludedMemoryFiles>
+						<File Id="701714270" Language="SFX">
+							<ShortName>cowboy_fire.wav</ShortName>
+							<Path>SFX\cowboy_fire_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3132229536" Name="Stop_cowboy_fire" ObjectPath="\Events\Default Work Unit\Stop_cowboy_fire"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="701714270" Language="SFX">
+					<ShortName>cowboy_fire.wav</ShortName>
+					<Path>SFX\cowboy_fire_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="1955993519" Name="Cowboy_fire" ObjectPath="\Game Parameters\Default Work Unit\Cowboy_fire"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3295034090" Language="SFX" Hash="905395024">
+			<ObjectPath>\SoundBanks\Default Work Unit\step_2_SoundBank</ObjectPath>
+			<ShortName>step_2_SoundBank</ShortName>
+			<Path>step_2_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4228269075" Name="Play_step_2" ObjectPath="\Events\Default Work Unit\Play_step_2">
+					<IncludedMemoryFiles>
+						<File Id="1061910924" Language="SFX">
+							<ShortName>step-2.wav</ShortName>
+							<Path>SFX\step-2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1136529981" Name="Stop_step_2" ObjectPath="\Events\Default Work Unit\Stop_step_2"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="1061910924" Language="SFX">
+					<ShortName>step-2.wav</ShortName>
+					<Path>SFX\step-2_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="3562484196" Name="Step_2" ObjectPath="\Game Parameters\Default Work Unit\Step_2"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3353862890" Language="SFX" Hash="2620691504">
+			<ObjectPath>\SoundBanks\Default Work Unit\Princess_SoundBank</ObjectPath>
+			<ShortName>Princess_SoundBank</ShortName>
+			<Path>Princess_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="60569347" Name="Play_princess" ObjectPath="\Events\Default Work Unit\Play_princess">
+					<IncludedMemoryFiles>
+						<File Id="385839069" Language="SFX">
+							<ShortName>Clash Royale Princess Sounds (online-audio-converter.com).wav</ShortName>
+							<Path>SFX\Clash Royale Princess Sounds (online-audio-converter.com)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2116709533" Name="Stop_princess" ObjectPath="\Events\Default Work Unit\Stop_princess"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="385839069" Language="SFX">
+					<ShortName>Clash Royale Princess Sounds (online-audio-converter.com).wav</ShortName>
+					<Path>SFX\Clash Royale Princess Sounds (online-audio-converter.com)_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="2871106020" Name="princess" ObjectPath="\Game Parameters\Default Work Unit\princess"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3590396489" Language="SFX" Hash="1709906521">
+			<ObjectPath>\SoundBanks\Default Work Unit\door_fall_SoundBank</ObjectPath>
+			<ShortName>door_fall_SoundBank</ShortName>
+			<Path>door_fall_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1095130906" Name="Play_door_fall" ObjectPath="\Events\Default Work Unit\Play_door_fall">
+					<IncludedMemoryFiles>
+						<File Id="624805278" Language="SFX">
+							<ShortName>door_fall.wav</ShortName>
+							<Path>SFX\door_fall_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1939963648" Name="Stop_door_fall" ObjectPath="\Events\Default Work Unit\Stop_door_fall"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="624805278" Language="SFX">
+					<ShortName>door_fall.wav</ShortName>
+					<Path>SFX\door_fall_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="4016704635" Name="Door_fall" ObjectPath="\Game Parameters\Default Work Unit\Door_fall"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3731075215" Language="SFX" Hash="2671047065">
+			<ObjectPath>\SoundBanks\Default Work Unit\track_background_SoundBank</ObjectPath>
+			<ShortName>track_background_SoundBank</ShortName>
+			<Path>track_background_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1739080962" Name="Play_track_background" ObjectPath="\Events\Default Work Unit\Play_track_background">
+					<IncludedMemoryFiles>
+						<File Id="11299378" Language="SFX">
+							<ShortName>track_background.wav</ShortName>
+							<Path>SFX\track_background_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1260795772" Name="Stop_track_background" ObjectPath="\Events\Default Work Unit\Stop_track_background"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="11299378" Language="SFX">
+					<ShortName>track_background.wav</ShortName>
+					<Path>SFX\track_background_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="3551826437" Name="Track_background" ObjectPath="\Game Parameters\Default Work Unit\Track_background"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="4066839450" Language="SFX" Hash="3107629350">
+			<ObjectPath>\SoundBanks\Default Work Unit\cowboy_hurt_SoundBank</ObjectPath>
+			<ShortName>cowboy_hurt_SoundBank</ShortName>
+			<Path>cowboy_hurt_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2846106577" Name="Play_cowboy_hurt" ObjectPath="\Events\Default Work Unit\Play_cowboy_hurt">
+					<IncludedMemoryFiles>
+						<File Id="821536157" Language="SFX">
+							<ShortName>cowboy_hurt.wav</ShortName>
+							<Path>SFX\cowboy_hurt_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="928408415" Name="Stop_cowboy_hurt" ObjectPath="\Events\Default Work Unit\Stop_cowboy_hurt"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="821536157" Language="SFX">
+					<ShortName>cowboy_hurt.wav</ShortName>
+					<Path>SFX\cowboy_hurt_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="1743673780" Name="Cowboy_hurt" ObjectPath="\Game Parameters\Default Work Unit\Cowboy_hurt"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

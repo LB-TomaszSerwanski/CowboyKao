@@ -51,6 +51,78 @@
         }
     },
     "Entities": {
+        "Entity_[1069689060092]": {
+            "Id": "Entity_[1069689060092]",
+            "Name": "Entity1",
+            "Components": {
+                "Component_[1025146650020025411]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1025146650020025411
+                },
+                "Component_[14065824221493567079]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 14065824221493567079,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
+                "Component_[14221196833971817250]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14221196833971817250
+                },
+                "Component_[14602641118123705111]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14602641118123705111
+                },
+                "Component_[15102548461225292256]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15102548461225292256
+                },
+                "Component_[16398463896499411400]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16398463896499411400
+                },
+                "Component_[16489352362428435252]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16489352362428435252,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            20.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[17454014944501055895]": {
+                    "$type": "SelectionComponent",
+                    "Id": 17454014944501055895
+                },
+                "Component_[17814314773226368356]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17814314773226368356
+                },
+                "Component_[6045551904762698214]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 6045551904762698214,
+                    "Play Trigger": {
+                        "controlName": "Track_menu_play"
+                    },
+                    "Stop Trigger": {
+                        "controlName": "Track_menu_stop"
+                    },
+                    "Plays Immediately": true
+                },
+                "Component_[7149034727930050599]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7149034727930050599
+                },
+                "Component_[9978269312167790554]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9978269312167790554
+                }
+            }
+        },
         "Entity_[1155164325235]": {
             "Id": "Entity_[1155164325235]",
             "Name": "Sun",

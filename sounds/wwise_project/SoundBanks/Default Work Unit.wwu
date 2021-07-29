@@ -64,11 +64,83 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="Custom_SoundBank" ID="{73B3D8AE-B9A3-45D4-B21E-D9E7F50EF4EB}">
+				<SoundBank Name="Princess_SoundBank" ID="{73B3D8AE-B9A3-45D4-B21E-D9E7F50EF4EB}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Clash Royale Princess Sounds (online-audio-converter_com)" ID="{FAD9C353-204D-41B8-8989-03486D14A39E}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play" ID="{D169C5C3-5AE8-4581-8A0A-E4BD4F4844BD}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop" ID="{F664865E-59C6-4F3C-9745-887F120D639E}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_princess" ID="{D169C5C3-5AE8-4581-8A0A-E4BD4F4844BD}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_princess" ID="{F664865E-59C6-4F3C-9745-887F120D639E}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="cowboy_fire_SoundBank" ID="{8DD9EFCA-F47B-475C-9166-E6CFF3BDE4C3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_cowboy_fire" ID="{67D4ACB6-7C4C-4135-9A19-0D336472094E}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_cowboy_fire" ID="{AF1C49E5-AE10-42BE-A59A-E3C9388D5A8D}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="cowboy_fire" ID="{1B48A1F3-C458-4C71-9BC6-160850D9D1EE}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="cowboy_hurt_SoundBank" ID="{CCDC0D09-61C7-4515-93B8-82CD37491B99}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_cowboy_hurt" ID="{309EC2B0-C520-416F-934A-B795FC0DD30F}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="cowboy_hurt" ID="{AF7B084D-BB20-4A1C-9261-45CCB04990EB}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_cowboy_hurt" ID="{C7B6A6D8-101E-4AEE-9885-DC31965FEC98}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="door_fall_SoundBank" ID="{DB58327C-BF76-4D36-9A31-D9D324BBEE02}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_door_fall" ID="{FE71B305-2C5B-4273-AA88-BEB321978E61}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="door_fall" ID="{9B25FDD6-9E8B-4CBA-B7CA-6545E01F6F2F}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_door_fall" ID="{1FD7E516-CA29-4DCD-910C-52E2DC2C100E}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="punch_SoundBank" ID="{8056AE8C-7E84-4E66-9FED-EA6DCE64FCE1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_punch" ID="{A9F5CC87-9791-49A4-A917-5B050D54801B}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="punch" ID="{F82023F7-1DB9-4DDB-B916-C1C77B21CC10}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_punch" ID="{464814EA-E564-4DFB-998B-30C891A8D7BD}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="step_SoundBank" ID="{99E5853D-BE8B-4E3B-892C-3E84EDEC42B6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="step" ID="{9DDA45A8-86CB-4332-873A-6C83EACAEB6F}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_step" ID="{021BC2E6-5F35-489A-964B-3ED5F8784762}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_step" ID="{2B9BFA0E-4742-4AF1-9E48-129D9187D747}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="step_2_SoundBank" ID="{84E00BF2-484A-476F-82A2-7CE2F11B9776}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_step_2" ID="{ED97788B-50BA-452F-9C8F-F1E5930D2810}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="step-2" ID="{F7A8FC5F-7A9D-47FE-9AE3-3157B87B933D}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_step_2" ID="{75FE86FF-87CC-4E82-B6BF-2F4E91364ACB}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="track_background_SoundBank" ID="{E25366C4-B9A4-431F-92DD-AFEE9E5D37DD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_track_background" ID="{52F7A3DD-EA22-404D-A597-071CE040C812}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="track_background" ID="{DC284713-3F32-4ECD-B6C6-C64F9D694F9B}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_track_background" ID="{6352480D-D373-4F18-B725-E54B39F155E8}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="track_menu_SoundBank" ID="{3B79090D-FF84-4B18-8B7E-F7820815EE15}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_track_menu" ID="{69D2B99A-C1F8-41E0-BCF1-205B94EF75BD}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_track_menu" ID="{18B40683-3D58-4914-B818-2CEBD20E20FB}" WorkUnitID="{4BAACE00-7345-4DD7-8629-0F6F17898934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="track_menu" ID="{0D388FFB-9FDA-4ADE-A6CE-32FFFFA2D52C}" WorkUnitID="{E49D964A-E630-4580-BB43-C5ECA68306F9}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

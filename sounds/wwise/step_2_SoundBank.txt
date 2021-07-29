@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1136529981	Stop_step_2			\Default Work Unit\Stop_step_2	
+	4228269075	Play_step_2			\Default Work Unit\Play_step_2	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3562484196	Step_2			\Default Work Unit\Step_2	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1061910924	step-2	C:\Users\GPC-319\.o3de\Projects\CowboyKao\sounds\wwise_project\.cache\Windows\SFX\step-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\step-2		48064
+
