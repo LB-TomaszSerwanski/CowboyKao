@@ -81,14 +81,14 @@
                     "Parent Entity": "Entity_[6779332967837]",
                     "Transform Data": {
                         "Translate": [
-                            0.08743143081665039,
-                            -0.5564041137695313,
-                            0.8549857139587402
+                            0.08746337890625,
+                            -0.5564045906066895,
+                            0.8549847602844238
                         ],
                         "Rotate": [
                             144.65982055664063,
-                            22.94439125061035,
-                            -92.05484008789063
+                            22.944387435913087,
+                            -92.0548324584961
                         ]
                     }
                 },
@@ -131,6 +131,55 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 2438497231717031081
                 },
+                "Component_[3071658672034291086]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3071658672034291086,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{FC58C2AA-D541-5D13-AC6B-CCABBAC6282F}"
+                                        },
+                                        "assetHint": "materials/gun.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "defaultMaterialSlot": {
+                        "materialAsset": {
+                            "assetId": {
+                                "guid": "{FC58C2AA-D541-5D13-AC6B-CCABBAC6282F}"
+                            },
+                            "assetHint": "materials/gun.azmaterial"
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialAssetId": {
+                                    "guid": "{31673A32-4D0C-575E-B191-14ABDC523401}",
+                                    "subId": 2400903522
+                                }
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialAssetId": {
+                                        "guid": "{31673A32-4D0C-575E-B191-14ABDC523401}",
+                                        "subId": 2400903522
+                                    }
+                                }
+                            }
+                        ]
+                    ]
+                },
                 "Component_[6945988680682414867]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 6945988680682414867
@@ -145,6 +194,23 @@
             "Id": "Entity_[652500576412]",
             "Name": "BulletPoint",
             "Components": {
+                "Component_[12288304591818646541]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 12288304591818646541,
+                    "Play Trigger": {
+                        "controlName": "Cowboy_fire_play"
+                    },
+                    "Stop Trigger": {
+                        "controlName": "Cowboy_fire_stop"
+                    }
+                },
+                "Component_[13550222362870364802]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 13550222362870364802,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
                 "Component_[15471516902764908622]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 15471516902764908622
@@ -548,6 +614,16 @@
                         }
                     ]
                 },
+                "Component_[3261431983570297326]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 3261431983570297326,
+                    "Play Trigger": {
+                        "controlName": "punch_play"
+                    },
+                    "Stop Trigger": {
+                        "controlName": "punch_stop"
+                    }
+                },
                 "Component_[3398345769948779883]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 3398345769948779883
@@ -572,6 +648,13 @@
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7288852774924371215,
                     "Parent Entity": "ContainerEntity"
+                },
+                "Component_[9852748684378857274]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 9852748684378857274,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
                 }
             }
         },
@@ -645,6 +728,55 @@
                 "Component_[11744306051350826644]": {
                     "$type": "EditorLockComponent",
                     "Id": 11744306051350826644
+                },
+                "Component_[11872554588289734541]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11872554588289734541,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{A2504F40-52EF-5DD1-ABFE-24D8218A7032}"
+                                        },
+                                        "assetHint": "materials/cowboy.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "defaultMaterialSlot": {
+                        "materialAsset": {
+                            "assetId": {
+                                "guid": "{A2504F40-52EF-5DD1-ABFE-24D8218A7032}"
+                            },
+                            "assetHint": "materials/cowboy.azmaterial"
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialAssetId": {
+                                    "guid": "{02566FAB-889D-5E0E-8002-DFFC8E412536}",
+                                    "subId": 595926019
+                                }
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialAssetId": {
+                                        "guid": "{02566FAB-889D-5E0E-8002-DFFC8E412536}",
+                                        "subId": 595926019
+                                    }
+                                }
+                            }
+                        ]
+                    ]
                 },
                 "Component_[12825839813325407316]": {
                     "$type": "EditorOnlyEntityComponent",

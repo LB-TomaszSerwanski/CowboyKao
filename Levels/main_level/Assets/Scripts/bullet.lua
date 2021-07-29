@@ -2,36 +2,33 @@ local bullet =
 {
 	Properties = 
 	{
-		Speed = {default = 30}
+		Speed = {default = 30};
 	}
 }
 
 function bullet:OnActivate()
-	self.tickHandler = TickBus.Connect(self)
+	self.lifeTime = 2;
 	self.Speed = self.Properties.Speed
 	self.forward = EntityTransform_VM.GetEntityRight(self.entityId, 1)
-	
---[[
-	self.collisionCount = 0
 	
 --________________________________________________TRIGGER_____________________________________________
 	self.triggerEnterBusId = SimulatedBody.GetOnTriggerEnterEvent(self.entityId);
 	self.triggerEnterBus = self.triggerEnterBusId:Connect(
-		function(...)
-			self.collisionCount = self.collisionCount + 1
-			log("Bullet Entered Trigger " .. tostring(self.collisionCount))
-			
-		end)
-
-	self.triggerExitBusId = SimulatedBody.GetOnTriggerExitEvent(self.entityId);
-	self.triggerExitBus = self.triggerExitBusId:Connect(
-		function(...)
-			self.collisionCount = self.collisionCount - 1
-			log(" Bullet Exited Trigger " .. tostring(self.collisionCount))
+		function(x, y)
+			self.body1 = TriggerEvent.GetOtherEntityId(y)
+			Debug.Log("Sending event to Entity: "..GameEntityContextRequestBus.Broadcast.GetEntityName(self.body1))
+			HitSE.Event.ReceiveHit(self.body1, 40)
+			self.children = TransformBus.Event.GetChildren(self.entityId)
+			for i = 1,#self.children,1 do
+				GameEntityContextRequestBus.Broadcast.DeactivateGameEntity(self.children[i])
+			end
+			GameEntityContextRequestBus.Broadcast.DeactivateGameEntity(self.entityId)
 		end)
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 --]]
 
+
+	self.tickHandler = TickBus.Connect(self)
 end
 
 function bullet:OnDeactivate()
@@ -39,11 +36,19 @@ function bullet:OnDeactivate()
 end
 
 function bullet:OnTick(dt, stp)
-	TransformBus.Event.RotateAroundLocalX(self.entityId, 30*dt)
-	
---	self.forward = EntityTransform_VM.GetEntityForward(self.entityId, 1)
-	TransformBus.Event.MoveEntity(self.entityId,self.forward * self.Speed * dt) -- Vector3(self.Speed * dt,0,0)
-	
+	self.lifeTime = self.lifeTime - dt;
+	if self.lifeTime > 0 then
+		TransformBus.Event.RotateAroundLocalX(self.entityId, 30*dt)
+		TransformBus.Event.MoveEntity(self.entityId,self.forward * self.Speed * dt)
+	else 
+		self.children = TransformBus.Event.GetChildren(self.entityId)
+		for i = 1,#self.children,1 do
+			--Debug.Log(GameEntityContextRequestBus.Broadcast.GetEntityName(self.children[i]))
+			GameEntityContextRequestBus.Broadcast.DeactivateGameEntity(self.children[i])
+		end
+			GameEntityContextRequestBus.Broadcast.DeactivateGameEntity(self.entityId)
+	end
+		
 end
 
 return bullet

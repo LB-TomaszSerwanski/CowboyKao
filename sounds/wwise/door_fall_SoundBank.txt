@@ -6,5 +6,5 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	4016704635	Door_fall			\Default Work Unit\Door_fall	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	624805278	door_fall	C:\Users\GPC-319\.o3de\Projects\CowboyKao\sounds\wwise_project\.cache\Windows\SFX\door_fall_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\door_fall		345900
+	624805278	door_fall	C:\Users\GPC-602\.o3de\Projects\CowboyKao\sounds\wwise_project\.cache\Windows\SFX\door_fall_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\door_fall		345900
 

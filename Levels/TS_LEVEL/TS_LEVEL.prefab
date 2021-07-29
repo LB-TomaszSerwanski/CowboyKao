@@ -51,6 +51,81 @@
         }
     },
     "Entities": {
+        "Entity_[1071962673989]": {
+            "Id": "Entity_[1071962673989]",
+            "Name": "Entity1",
+            "Components": {
+                "Component_[10148186675277625247]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10148186675277625247
+                },
+                "Component_[11677764927295332096]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11677764927295332096
+                },
+                "Component_[14427878302644105858]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14427878302644105858
+                },
+                "Component_[15470986773722026190]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15470986773722026190
+                },
+                "Component_[15612004458566354500]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15612004458566354500
+                },
+                "Component_[16158818749824328049]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16158818749824328049,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            11.930225372314454,
+                            37.08993148803711,
+                            6.81374979019165
+                        ]
+                    }
+                },
+                "Component_[3030884594264805927]": {
+                    "$type": "SelectionComponent",
+                    "Id": 3030884594264805927
+                },
+                "Component_[6873743862867041566]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6873743862867041566
+                },
+                "Component_[7185108656120671820]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 7185108656120671820,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                10.0,
+                                10.0,
+                                10.0
+                            ]
+                        }
+                    }
+                },
+                "Component_[8402079405404565577]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8402079405404565577
+                },
+                "Component_[9406224915758794881]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9406224915758794881
+                }
+            }
+        },
         "Entity_[1155164325235]": {
             "Id": "Entity_[1155164325235]",
             "Name": "Sun",
@@ -639,6 +714,27 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12502575641881108175]/Transform Data/Translate/2",
                     "value": 0.24399471282958985
+                }
+            ]
+        },
+        "Instance_[50837748732741]": {
+            "Source": "Levels/main_level/Assets/PlayerCharacter/Bullet.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5979446524303545350]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[5979446524303545350]/Transform Data",
+                    "value": {
+                        "Translate": [
+                            -59.115211486816409,
+                            44.183868408203128,
+                            15.84698486328125
+                        ]
+                    }
                 }
             ]
         }

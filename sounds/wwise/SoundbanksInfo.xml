@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\GPC-319\.o3de\Projects\CowboyKao\sounds\wwise_project\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\GPC-319\.o3de\Projects\CowboyKao\sounds\wwise_project\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\GPC-319\.o3de\Projects\CowboyKao\sounds\wwise\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\GPC-602\.o3de\Projects\CowboyKao\sounds\wwise_project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\GPC-602\.o3de\Projects\CowboyKao\sounds\wwise_project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\GPC-602\.o3de\Projects\CowboyKao\sounds\wwise\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\GPC-319\.o3de\Projects\CowboyKao\sounds\wwise_project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\GPC-602\.o3de\Projects\CowboyKao\sounds\wwise_project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -28,7 +28,7 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="79326194" Language="SFX" Hash="2610123871">
+		<SoundBank Id="79326194" Language="SFX" Hash="375066416">
 			<ObjectPath>\SoundBanks\Default Work Unit\track_menu_SoundBank</ObjectPath>
 			<ShortName>track_menu_SoundBank</ShortName>
 			<Path>track_menu_SoundBank.bnk</Path>
@@ -53,7 +53,7 @@
 				<GameParameter Id="4105918236" Name="Track_menu" ObjectPath="\Game Parameters\Default Work Unit\Track_menu"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="555449325" Language="SFX" Hash="3511624546">
+		<SoundBank Id="555449325" Language="SFX" Hash="88923329">
 			<ObjectPath>\SoundBanks\Default Work Unit\step_SoundBank</ObjectPath>
 			<ShortName>step_SoundBank</ShortName>
 			<Path>step_SoundBank.bnk</Path>
@@ -78,7 +78,7 @@
 				<GameParameter Id="621108255" Name="Step" ObjectPath="\Game Parameters\Default Work Unit\Step"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1010395625" Language="SFX" Hash="1505684695">
+		<SoundBank Id="1010395625" Language="SFX" Hash="3570888177">
 			<ObjectPath>\SoundBanks\Default Work Unit\punch_SoundBank</ObjectPath>
 			<ShortName>punch_SoundBank</ShortName>
 			<Path>punch_SoundBank.bnk</Path>
@@ -103,7 +103,7 @@
 				<GameParameter Id="645565787" Name="punch" ObjectPath="\Game Parameters\Default Work Unit\punch"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1091743888" Language="SFX">
+		<SoundBank Id="1091743888" Language="SFX" Hash="1442445546">
 			<ObjectPath>\SoundBanks\Default Work Unit\test_bank2</ObjectPath>
 			<ShortName>test_bank2</ShortName>
 			<Path>test_bank2.bnk</Path>
@@ -112,7 +112,7 @@
 				<Event Id="1100037040" Name="test_event_4_bank2_streamed_target" ObjectPath="\Events\Default Work Unit\test_event_4_bank2_streamed_target"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1091743889" Language="SFX">
+		<SoundBank Id="1091743889" Language="SFX" Hash="1601699052">
 			<ObjectPath>\SoundBanks\Default Work Unit\test_bank3</ObjectPath>
 			<ShortName>test_bank3</ShortName>
 			<Path>test_bank3.bnk</Path>
@@ -135,7 +135,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1091743891" Language="SFX">
+		<SoundBank Id="1091743891" Language="SFX" Hash="2923211633">
 			<ObjectPath>\SoundBanks\Default Work Unit\test_bank1</ObjectPath>
 			<ShortName>test_bank1</ShortName>
 			<Path>test_bank1.bnk</Path>
@@ -158,7 +158,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1091743892" Language="SFX">
+		<SoundBank Id="1091743892" Language="SFX" Hash="3991847887">
 			<ObjectPath>\SoundBanks\Default Work Unit\test_bank6</ObjectPath>
 			<ShortName>test_bank6</ShortName>
 			<Path>test_bank6.bnk</Path>
@@ -177,7 +177,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1091743893" Language="SFX">
+		<SoundBank Id="1091743893" Language="SFX" Hash="3697979696">
 			<ObjectPath>\SoundBanks\Default Work Unit\test_bank7</ObjectPath>
 			<ShortName>test_bank7</ShortName>
 			<Path>test_bank7.bnk</Path>
@@ -200,7 +200,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1091743894" Language="SFX">
+		<SoundBank Id="1091743894" Language="SFX" Hash="3393115328">
 			<ObjectPath>\SoundBanks\Default Work Unit\test_bank4</ObjectPath>
 			<ShortName>test_bank4</ShortName>
 			<Path>test_bank4.bnk</Path>
@@ -211,7 +211,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1091743895" Language="SFX">
+		<SoundBank Id="1091743895" Language="SFX" Hash="4246350729">
 			<ObjectPath>\SoundBanks\Default Work Unit\test_bank5</ObjectPath>
 			<ShortName>test_bank5</ShortName>
 			<Path>test_bank5.bnk</Path>
@@ -244,12 +244,37 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3241173896">
+		<SoundBank Id="1355168291" Language="SFX" Hash="853443661">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3234822813" Language="SFX" Hash="2639622742">
+		<SoundBank Id="2305697590" Language="SFX" Hash="4173292946">
+			<ObjectPath>\SoundBanks\Default Work Unit\track_rin_SoundBank</ObjectPath>
+			<ShortName>track_rin_SoundBank</ShortName>
+			<Path>track_rin_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1014728905" Name="Play_track_rin" ObjectPath="\Events\Default Work Unit\Play_track_rin">
+					<IncludedMemoryFiles>
+						<File Id="53304325" Language="SFX">
+							<ShortName>track_rin.wav</ShortName>
+							<Path>SFX\track_rin_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1895110739" Name="Stop_track_rin" ObjectPath="\Events\Default Work Unit\Stop_track_rin"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="53304325" Language="SFX">
+					<ShortName>track_rin.wav</ShortName>
+					<Path>SFX\track_rin_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="3853126832" Name="track_rin" ObjectPath="\Game Parameters\Default Work Unit\track_rin"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3234822813" Language="SFX" Hash="555540176">
 			<ObjectPath>\SoundBanks\Default Work Unit\cowboy_fire_SoundBank</ObjectPath>
 			<ShortName>cowboy_fire_SoundBank</ShortName>
 			<Path>cowboy_fire_SoundBank.bnk</Path>
@@ -274,7 +299,7 @@
 				<GameParameter Id="1955993519" Name="Cowboy_fire" ObjectPath="\Game Parameters\Default Work Unit\Cowboy_fire"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3295034090" Language="SFX" Hash="905395024">
+		<SoundBank Id="3295034090" Language="SFX" Hash="3563252731">
 			<ObjectPath>\SoundBanks\Default Work Unit\step_2_SoundBank</ObjectPath>
 			<ShortName>step_2_SoundBank</ShortName>
 			<Path>step_2_SoundBank.bnk</Path>
@@ -299,7 +324,7 @@
 				<GameParameter Id="3562484196" Name="Step_2" ObjectPath="\Game Parameters\Default Work Unit\Step_2"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3353862890" Language="SFX" Hash="2620691504">
+		<SoundBank Id="3353862890" Language="SFX" Hash="2384415415">
 			<ObjectPath>\SoundBanks\Default Work Unit\Princess_SoundBank</ObjectPath>
 			<ShortName>Princess_SoundBank</ShortName>
 			<Path>Princess_SoundBank.bnk</Path>
@@ -324,7 +349,7 @@
 				<GameParameter Id="2871106020" Name="princess" ObjectPath="\Game Parameters\Default Work Unit\princess"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3590396489" Language="SFX" Hash="1709906521">
+		<SoundBank Id="3590396489" Language="SFX" Hash="4209291028">
 			<ObjectPath>\SoundBanks\Default Work Unit\door_fall_SoundBank</ObjectPath>
 			<ShortName>door_fall_SoundBank</ShortName>
 			<Path>door_fall_SoundBank.bnk</Path>
@@ -349,7 +374,7 @@
 				<GameParameter Id="4016704635" Name="Door_fall" ObjectPath="\Game Parameters\Default Work Unit\Door_fall"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3731075215" Language="SFX" Hash="2671047065">
+		<SoundBank Id="3731075215" Language="SFX" Hash="3669856506">
 			<ObjectPath>\SoundBanks\Default Work Unit\track_background_SoundBank</ObjectPath>
 			<ShortName>track_background_SoundBank</ShortName>
 			<Path>track_background_SoundBank.bnk</Path>
@@ -374,7 +399,7 @@
 				<GameParameter Id="3551826437" Name="Track_background" ObjectPath="\Game Parameters\Default Work Unit\Track_background"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4066839450" Language="SFX" Hash="3107629350">
+		<SoundBank Id="4066839450" Language="SFX" Hash="2953881606">
 			<ObjectPath>\SoundBanks\Default Work Unit\cowboy_hurt_SoundBank</ObjectPath>
 			<ShortName>cowboy_hurt_SoundBank</ShortName>
 			<Path>cowboy_hurt_SoundBank.bnk</Path>
