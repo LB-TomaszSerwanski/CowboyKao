@@ -38,6 +38,7 @@ function playerController:OnActivate()
 	self.hudEntity = nil
 	self.healthTextElement = nil
 	self.isTheHudLoaded = false
+	self.initialPos = TransformBus.Event.GetWorldTranslation(self.entityId)
 	
 	--self.CamRot = self.Properties.CamRot
 	self.cc = 
@@ -289,6 +290,10 @@ end
 
 function playerController:UpdateHealth(self)
 	UiTextBus.Event.SetText(self.healthTextElement, "Health: "..tostring(self.health))
+	if self.health <= 0 then 
+		TransformBus.Event.SetWorldTranslation(self.entityId, self.initialPos)
+		self.health = 100
+	end
 end
 
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

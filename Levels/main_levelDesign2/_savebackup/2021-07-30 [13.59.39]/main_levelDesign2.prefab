@@ -28540,7 +28540,25 @@
                 },
                 "Component_[16556622229912651777]": {
                     "$type": "EditorScriptCanvasComponent",
-                    "Id": 16556622229912651777
+                    "Id": 16556622229912651777,
+                    "m_name": "GatewayCanvas",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{4D8FE79B-C25D-50A9-B2A8-350A255F2787}"
+                            },
+                            "assetHint": "scriptcanvas/gatewaycanvas.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{4D8FE79B-C25D-50A9-B2A8-350A255F2787}"
+                            },
+                            "assetHint": "scriptcanvas/gatewaycanvas.scriptcanvas"
+                        }
+                    }
                 },
                 "Component_[18327003946712240531]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -35538,17 +35556,17 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12502575641881108175]/Transform Data/Translate/1",
-                    "value": -747.1015625
+                    "value": -746.7916870117188
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12502575641881108175]/Transform Data/Translate/2",
-                    "value": 7.880735397338867
+                    "value": 6.0
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12502575641881108175]/Transform Data/Rotate/2",
-                    "value": 90.0
+                    "value": 89.99994659423828
                 },
                 {
                     "op": "remove",

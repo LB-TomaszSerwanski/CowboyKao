@@ -28516,6 +28516,114 @@
                 }
             }
         },
+        "Entity_[6878583460767]": {
+            "Id": "Entity_[6878583460767]",
+            "Name": "Entity1",
+            "Components": {
+                "Component_[10457048751280295268]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 10457048751280295268,
+                    "m_template": {
+                        "$type": "UiCanvasAssetRefComponent",
+                        "CanvasAssetRef": {
+                            "AssetPath": "levels/ui/jw/gateway.uicanvas"
+                        }
+                    }
+                },
+                "Component_[13601683120296950383]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13601683120296950383
+                },
+                "Component_[14170564326173211482]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14170564326173211482
+                },
+                "Component_[16556622229912651777]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 16556622229912651777,
+                    "m_name": "GatewayCanvas",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{4D8FE79B-C25D-50A9-B2A8-350A255F2787}"
+                            },
+                            "assetHint": "scriptcanvas/gatewaycanvas.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{4D8FE79B-C25D-50A9-B2A8-350A255F2787}"
+                            },
+                            "assetHint": "scriptcanvas/gatewaycanvas.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[18327003946712240531]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 18327003946712240531,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.8479819297790527,
+                            -694.8375244140625,
+                            8.944958686828614
+                        ]
+                    }
+                },
+                "Component_[1957588556544328453]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1957588556544328453
+                },
+                "Component_[2353561356730436610]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2353561356730436610
+                },
+                "Component_[281323235800313931]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 281323235800313931
+                },
+                "Component_[2959533599058660564]": {
+                    "$type": "SelectionComponent",
+                    "Id": 2959533599058660564
+                },
+                "Component_[7184758690068858289]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7184758690068858289
+                },
+                "Component_[788342292092752917]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 788342292092752917
+                },
+                "Component_[8364469686150518090]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 8364469686150518090,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                10.0,
+                                10.0,
+                                5.0
+                            ]
+                        }
+                    }
+                },
+                "Component_[9462595177480393087]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9462595177480393087
+                }
+            }
+        },
         "Entity_[6942334077207]": {
             "Id": "Entity_[6942334077207]",
             "Name": "BigTree",
