@@ -22,6 +22,7 @@ function playerController:OnActivate()
 --	self.inputMouseYHandler = InputEventNotificationBus.Connect(self, InputEventNotificationId("MouseY"))
 	self.consoleHandler = ConsoleNotificationBus.Connect(self)
 	self.ScriptEventHandler = GamePlay.Connect(self)
+	self.ScriptEventHandlerDmg = HitSE.Connect(self, self.entityId)
 --_______________________________________________Setting up vars
 	self.t = 0
 	self.stp = {showtime = false}
@@ -33,6 +34,10 @@ function playerController:OnActivate()
 	self.stepTime = 0
 	self.fallingTime = 0
 	self.isTheGameStarted = false
+	self.health = 100
+	self.hudEntity = nil
+	self.healthTextElement = nil
+	self.isTheHudLoaded = false
 	
 	--self.CamRot = self.Properties.CamRot
 	self.cc = 
@@ -55,6 +60,8 @@ function playerController:OnDeactivate()
 	self.inputRLHandler:Disconnect()
 	self.consoleHandler:Disconnect()
 	self.inputMouseXHandler:Disconnect()
+	self.ScriptEventHandlerDmg:Disconnect()
+	self.ScriptEventHandler:Disconnect()
 --	self.inputMouseYHandler :Disconnect()
 end
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -92,6 +99,13 @@ end
 --________________________________________________________________ TICK ________________________________________________________________
 function playerController:OnTick(dt)
 	if self.isTheGameStarted then
+		if not self.isTheHudLoaded then
+			self.hudEntity = find_game_entity("Crosshair")
+			self.uiCanvas = UiCanvasAssetRefBus.Event.LoadCanvas(self.hudEntity)
+			self.healthTextElement = UiCanvasBus.Event.FindElementByName(self.uiCanvas, "HP TEXT")
+			self.isTheHudLoaded = true
+		end
+		self:UpdateHealth(self)
 		self:ShowTime(self, dt)
 		self:CharacterMovement(self, dt)
 		if self.isJumping then
@@ -115,7 +129,10 @@ function playerController:OnTick(dt)
 end
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-
+function playerController:ReceiveHit(damage ,entityId)
+	Debug.Log("Received "..tostring(damage).." damage")
+	self.health = self.health - damage
+end
 
 
 
@@ -270,6 +287,10 @@ function playerController:CharacterMovement(self, dt)
 
 end
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+function playerController:UpdateHealth(self)
+	UiTextBus.Event.SetText(self.healthTextElement, "Health: "..tostring(self.health))
+end
 
 
 return playerController
