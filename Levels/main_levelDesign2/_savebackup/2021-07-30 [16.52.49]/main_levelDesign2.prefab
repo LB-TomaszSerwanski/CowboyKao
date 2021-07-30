@@ -488,8 +488,8 @@
                         "Configuration": {
                             "LightType": 6,
                             "IntensityMode": 1,
-                            "Intensity": 700.0,
-                            "AttenuationRadius": 296.5882568359375
+                            "Intensity": 750.0,
+                            "AttenuationRadius": 306.9980163574219
                         }
                     }
                 },
@@ -512,7 +512,7 @@
                     "Transform Data": {
                         "Translate": [
                             -0.8403081893920898,
-                            -576.9583740234375,
+                            -581.4705200195313,
                             25.34954071044922
                         ],
                         "Rotate": [
@@ -5457,6 +5457,248 @@
                             }
                         }
                     }
+                }
+            }
+        },
+        "Entity_[1749483345241]": {
+            "Id": "Entity_[1749483345241]",
+            "Name": "Temple Light2",
+            "Components": {
+                "Component_[10488873569981333213]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10488873569981333213
+                },
+                "Component_[13191547168155624358]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13191547168155624358
+                },
+                "Component_[15201376632300051640]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15201376632300051640
+                },
+                "Component_[15411642404853075606]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15411642404853075606
+                },
+                "Component_[15679492327333231830]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15679492327333231830
+                },
+                "Component_[17939390379656718810]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17939390379656718810
+                },
+                "Component_[6137969690744424198]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 6137969690744424198,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 6,
+                            "IntensityMode": 1,
+                            "Intensity": 20.0,
+                            "AttenuationRadius": 50.132564544677737
+                        }
+                    }
+                },
+                "Component_[7174061780739901937]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7174061780739901937
+                },
+                "Component_[9673238488680112869]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9673238488680112869
+                },
+                "Component_[9780014680915515913]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9780014680915515913
+                },
+                "Component_[9845134119891611422]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9845134119891611422,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.06595778465270996,
+                            -611.706298828125,
+                            20.894357681274415
+                        ],
+                        "Rotate": [
+                            -89.99994659423828,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            }
+        },
+        "Entity_[1822497789273]": {
+            "Id": "Entity_[1822497789273]",
+            "Name": "Platform",
+            "Components": {
+                "Component_[11410846363745824618]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 11410846363745824618,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
+                                    "subId": 858390244
+                                },
+                                "assetHint": "objects/_primitives/_box_1x1.pxmesh"
+                            },
+                            "Configuration": {
+                                "Scale": [
+                                    20.0,
+                                    12.0,
+                                    1.0
+                                ],
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
+                                        "subId": 858390244
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "objects/_primitives/_box_1x1.pxmesh"
+                                },
+                                "AssetScale": [
+                                    0.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            }
+                        },
+                        "HasNonUniformScale": true
+                    },
+                    "HasNonUniformScale": true
+                },
+                "Component_[12095527342324321999]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12095527342324321999
+                },
+                "Component_[13645500520394372468]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13645500520394372468
+                },
+                "Component_[14383437288112422664]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14383437288112422664,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.43342065811157229,
+                            -612.2161254882813,
+                            25.581626892089845
+                        ]
+                    }
+                },
+                "Component_[15103957588323965740]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15103957588323965740
+                },
+                "Component_[15833346871738573858]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 15833346871738573858,
+                    "NonUniformScale": [
+                        20.0,
+                        12.0,
+                        1.0
+                    ]
+                },
+                "Component_[16190056850757823642]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16190056850757823642
+                },
+                "Component_[1980758440471342121]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1980758440471342121
+                },
+                "Component_[2485076634168394982]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2485076634168394982
+                },
+                "Component_[5229977805060780693]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5229977805060780693
+                },
+                "Component_[7579252069867712982]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7579252069867712982
+                },
+                "Component_[8026725313293048798]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8026725313293048798,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
+                                    "subId": 284301017
+                                },
+                                "assetHint": "objects/_primitives/_box_1x1.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[8189258428847743195]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8189258428847743195,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{3566B460-0C79-5B4A-B37C-0236EBACADAB}"
+                                        },
+                                        "assetHint": "materials/woodplanks/wood_planks.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "defaultMaterialSlot": {
+                        "materialAsset": {
+                            "assetId": {
+                                "guid": "{3566B460-0C79-5B4A-B37C-0236EBACADAB}"
+                            },
+                            "assetHint": "materials/woodplanks/wood_planks.azmaterial"
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialAssetId": {
+                                    "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
+                                    "subId": 2511422688
+                                }
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialAssetId": {
+                                        "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
+                                        "subId": 2511422688
+                                    }
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[9585969353507260252]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9585969353507260252
                 }
             }
         },
@@ -34092,27 +34334,6 @@
             "Id": "Entity_[85383653741579]",
             "Name": "Princess Rin",
             "Components": {
-                "Component_[11442097357899493259]": {
-                    "$type": "EditorActorComponent",
-                    "Id": 11442097357899493259,
-                    "ActorAsset": {
-                        "assetId": {
-                            "guid": "{BEF8750F-548F-5355-A77A-3CBB1434C659}",
-                            "subId": 2949193728
-                        },
-                        "loadBehavior": "QueueLoad",
-                        "assetHint": "characters/cowboy/actor/cowboy_01.actor"
-                    },
-                    "MaterialPerLOD": [
-                        {
-                            "AssetPath": "characters/cowboy/actor/cowboy_01.mtl"
-                        }
-                    ],
-                    "MaterialPerActor": {
-                        "AssetPath": "characters/cowboy/actor/cowboy_01.mtl"
-                    },
-                    "AttachmentTarget": ""
-                },
                 "Component_[11860627131512615624]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 11860627131512615624
@@ -34124,6 +34345,115 @@
                 "Component_[13827784934114655232]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 13827784934114655232
+                },
+                "Component_[16515981192502241855]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16515981192502241855,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{38DCB346-FCCE-55BE-B823-3895506EEB2C}",
+                                    "subId": 277301842
+                                },
+                                "assetHint": "levels/msz assets/princess/ms princess.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17387084105680625229]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 17387084105680625229,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialAssetId": {
+                                            "guid": "{38DCB346-FCCE-55BE-B823-3895506EEB2C}",
+                                            "subId": 379935614
+                                        }
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0968D030-ABFB-5330-B49B-5D8216111B6F}"
+                                            },
+                                            "assetHint": "materials/princessdress.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialAssetId": {
+                                            "guid": "{38DCB346-FCCE-55BE-B823-3895506EEB2C}",
+                                            "subId": 1922733208
+                                        }
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D9F8C661-0643-5049-B7AC-5035271F294F}"
+                                            },
+                                            "assetHint": "materials/princess.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialAssetId": {
+                                    "guid": "{38DCB346-FCCE-55BE-B823-3895506EEB2C}",
+                                    "subId": 379935614
+                                }
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{0968D030-ABFB-5330-B49B-5D8216111B6F}"
+                                },
+                                "assetHint": "materials/princessdress.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialAssetId": {
+                                    "guid": "{38DCB346-FCCE-55BE-B823-3895506EEB2C}",
+                                    "subId": 1922733208
+                                }
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{D9F8C661-0643-5049-B7AC-5035271F294F}"
+                                },
+                                "assetHint": "materials/princess.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialAssetId": {
+                                        "guid": "{38DCB346-FCCE-55BE-B823-3895506EEB2C}",
+                                        "subId": 379935614
+                                    }
+                                }
+                            },
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialAssetId": {
+                                        "guid": "{38DCB346-FCCE-55BE-B823-3895506EEB2C}",
+                                        "subId": 1922733208
+                                    }
+                                }
+                            }
+                        ]
+                    ]
                 },
                 "Component_[1795295679091724188]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -34149,13 +34479,14 @@
                         "Translate": [
                             -0.7424221038818359,
                             -561.7070922851563,
-                            12.16471004486084
+                            10.846399307250977
                         ],
                         "Rotate": [
                             0.0,
                             0.0,
-                            180.0
-                        ]
+                            94.22029113769531
+                        ],
+                        "UniformScale": 17.0
                     }
                 },
                 "Component_[9257643769179237993]": {
