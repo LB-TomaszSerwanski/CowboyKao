@@ -2839,6 +2839,63 @@
                 }
             }
         },
+        "Entity_[2557441511090]": {
+            "Id": "Entity_[2557441511090]",
+            "Name": "Crosshair",
+            "Components": {
+                "Component_[1011594046806236050]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1011594046806236050
+                },
+                "Component_[10714521205172774901]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10714521205172774901
+                },
+                "Component_[11328301327605774405]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11328301327605774405
+                },
+                "Component_[11844041489464200953]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11844041489464200953
+                },
+                "Component_[14088697890577150082]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 14088697890577150082,
+                    "m_template": {
+                        "$type": "UiCanvasAssetRefComponent",
+                        "CanvasAssetRef": {
+                            "AssetPath": "levels/ui/jshud.uicanvas"
+                        }
+                    }
+                },
+                "Component_[17504768880429126810]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17504768880429126810
+                },
+                "Component_[2188697345231092386]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2188697345231092386,
+                    "Parent Entity": "Entity_[39900623479447]"
+                },
+                "Component_[23379576821094694]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 23379576821094694
+                },
+                "Component_[4288948931036875211]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4288948931036875211
+                },
+                "Component_[740900797157946729]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 740900797157946729
+                },
+                "Component_[8761833644991324587]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8761833644991324587
+                }
+            }
+        },
         "Entity_[2731977128932]": {
             "Id": "Entity_[2731977128932]",
             "Name": "BigTree",
@@ -10374,6 +10431,120 @@
                 }
             }
         },
+        "Entity_[3294448831916]": {
+            "Id": "Entity_[3294448831916]",
+            "Name": "Storyline",
+            "Components": {
+                "Component_[11420252119825601119]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11420252119825601119
+                },
+                "Component_[12457666584952130299]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12457666584952130299
+                },
+                "Component_[13086076862715975576]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 13086076862715975576,
+                    "m_template": {
+                        "$type": "UiCanvasAssetRefComponent",
+                        "CanvasAssetRef": {
+                            "AssetPath": "levels/ui/jw/storyline.uicanvas"
+                        }
+                    }
+                },
+                "Component_[14054599086013394320]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14054599086013394320
+                },
+                "Component_[14910567946190349423]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14910567946190349423
+                },
+                "Component_[16020984521398366732]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16020984521398366732
+                },
+                "Component_[1807811435211499487]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1807811435211499487,
+                    "Parent Entity": "Entity_[39900623479447]"
+                },
+                "Component_[3090480169078291319]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3090480169078291319
+                },
+                "Component_[3682575988493403450]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3682575988493403450
+                },
+                "Component_[4354163891997297344]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4354163891997297344
+                },
+                "Component_[7998265229182739399]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7998265229182739399
+                }
+            }
+        },
+        "Entity_[3350283406764]": {
+            "Id": "Entity_[3350283406764]",
+            "Name": "Hints",
+            "Components": {
+                "Component_[11449773758700918784]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11449773758700918784
+                },
+                "Component_[11623766449528253974]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11623766449528253974
+                },
+                "Component_[11819379399706843026]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11819379399706843026
+                },
+                "Component_[12624789795104524124]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12624789795104524124
+                },
+                "Component_[13060354694753528374]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13060354694753528374
+                },
+                "Component_[15164876418295736318]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15164876418295736318
+                },
+                "Component_[15960833499267542918]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15960833499267542918
+                },
+                "Component_[2940507928134385552]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2940507928134385552
+                },
+                "Component_[3951487024164016634]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 3951487024164016634,
+                    "m_template": {
+                        "$type": "UiCanvasAssetRefComponent",
+                        "CanvasAssetRef": {
+                            "AssetPath": "levels/ui/jw/hints.uicanvas"
+                        }
+                    }
+                },
+                "Component_[6130864514352008718]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6130864514352008718,
+                    "Parent Entity": "Entity_[39900623479447]"
+                },
+                "Component_[9737714169155294686]": {
+                    "$type": "SelectionComponent",
+                    "Id": 9737714169155294686
+                }
+            }
+        },
         "Entity_[36594788288791]": {
             "Id": "Entity_[36594788288791]",
             "Name": "Placeholder Pagoda",
@@ -10716,6 +10887,86 @@
                 "Component_[7750526572076320468]": {
                     "$type": "SelectionComponent",
                     "Id": 7750526572076320468
+                }
+            }
+        },
+        "Entity_[39900623479447]": {
+            "Id": "Entity_[39900623479447]",
+            "Name": "UI",
+            "Components": {
+                "Component_[10880980742328714446]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10880980742328714446
+                },
+                "Component_[11383586329767826939]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11383586329767826939
+                },
+                "Component_[17305797524953688344]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17305797524953688344,
+                    "Parent Entity": "Entity_[1146574390643]"
+                },
+                "Component_[17569203641506052473]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17569203641506052473
+                },
+                "Component_[3478323273933278032]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 3478323273933278032,
+                    "m_name": "StartGame",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{E5EF5419-DB81-5816-9A51-2A41F20C0120}"
+                            },
+                            "assetHint": "scriptcanvas/startgame.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{E5EF5419-DB81-5816-9A51-2A41F20C0120}"
+                            },
+                            "assetHint": "scriptcanvas/startgame.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[6305298081106741254]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6305298081106741254
+                },
+                "Component_[6514150648158733564]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6514150648158733564
+                },
+                "Component_[6744189853210807440]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6744189853210807440
+                },
+                "Component_[8066455003670743971]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8066455003670743971
+                },
+                "Component_[8154762243214608975]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 8154762243214608975,
+                    "m_template": {
+                        "$type": "UiCanvasAssetRefComponent",
+                        "CanvasAssetRef": {
+                            "AssetPath": "levels/ui/jw/menu.uicanvas"
+                        },
+                        "IsAutoLoad": true
+                    }
+                },
+                "Component_[8177019055549611248]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8177019055549611248
+                },
+                "Component_[9407677597211514178]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9407677597211514178
                 }
             }
         },
@@ -20087,6 +20338,13 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 11555733975502575452
                 },
+                "Component_[12268242794518848014]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 12268242794518848014,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
                 "Component_[12920537247062373481]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 12920537247062373481
@@ -20102,6 +20360,16 @@
                 "Component_[16405180672650943296]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 16405180672650943296
+                },
+                "Component_[1834253761579894297]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 1834253761579894297,
+                    "Play Trigger": {
+                        "controlName": "door_fall_play"
+                    },
+                    "Stop Trigger": {
+                        "controlName": "door_fall_stop"
+                    }
                 },
                 "Component_[2325016715335322594]": {
                     "$type": "EditorVisibilityComponent",
@@ -20770,6 +21038,13 @@
                         ]
                     }
                 },
+                "Component_[11129409307090617491]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 11129409307090617491,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
                 "Component_[11439263799169472716]": {
                     "$type": "ScriptEditorComponent",
                     "Id": 11439263799169472716,
@@ -20810,6 +21085,16 @@
                 "Component_[16405180672650943296]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 16405180672650943296
+                },
+                "Component_[18027313092587817805]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 18027313092587817805,
+                    "Play Trigger": {
+                        "controlName": "door_fall_play"
+                    },
+                    "Stop Trigger": {
+                        "controlName": "door_fall_stop"
+                    }
                 },
                 "Component_[2325016715335322594]": {
                     "$type": "EditorVisibilityComponent",
@@ -22121,6 +22406,27 @@
         }
     },
     "Instances": {
+        "Instance_[19927450088078]": {
+            "Source": "Levels/main_level/Assets/PlayerCharacter/Bullet.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5979446524303545350]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[5979446524303545350]/Transform Data",
+                    "value": {
+                        "Translate": [
+                            0.0,
+                            20.0,
+                            0.0
+                        ]
+                    }
+                }
+            ]
+        },
         "Instance_[2002063803931]": {
             "Source": "Prefabs/PlayerCharacter.prefab",
             "Patches": [
@@ -22160,27 +22466,6 @@
                 {
                     "op": "remove",
                     "path": "/ContainerEntity/Components/Component_[14106031193077901327]/Transform Data/UniformScale"
-                }
-            ]
-        },
-        "Instance_[6044135452266]": {
-            "Source": "Levels/main_level/Assets/PlayerCharacter/Bullet.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[5979446524303545350]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "add",
-                    "path": "/ContainerEntity/Components/Component_[5979446524303545350]/Transform Data",
-                    "value": {
-                        "Translate": [
-                            0.0,
-                            20.0,
-                            0.0
-                        ]
-                    }
                 }
             ]
         }

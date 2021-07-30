@@ -7,17 +7,18 @@ local bullet =
 }
 
 function bullet:OnActivate()
+	self.ScriptEventHandler = HitSE.Connect(self, self.entityId)
 	self.lifeTime = 2;
 	self.Speed = self.Properties.Speed
-	self.forward = EntityTransform_VM.GetEntityRight(self.entityId, 1)
+	self.forward = EntityEntity_VM.GetEntityRight(self.entityId, 1)
 	
 --________________________________________________TRIGGER_____________________________________________
 	self.triggerEnterBusId = SimulatedBody.GetOnTriggerEnterEvent(self.entityId);
 	self.triggerEnterBus = self.triggerEnterBusId:Connect(
 		function(x, y)
 			self.body1 = TriggerEvent.GetOtherEntityId(y)
-			Debug.Log("Sending event to Entity: "..GameEntityContextRequestBus.Broadcast.GetEntityName(self.body1))
-			HitSE.Event.ReceiveHit(self.body1, 40)
+			--Debug.Log("Sending event to Entity: "..GameEntityContextRequestBus.Broadcast.GetEntityName(self.body1))
+			HitSE.Event.ReceiveHit(self.body1, tonumber(40))
 			self.children = TransformBus.Event.GetChildren(self.entityId)
 			for i = 1,#self.children,1 do
 				GameEntityContextRequestBus.Broadcast.DeactivateGameEntity(self.children[i])

@@ -21,6 +21,8 @@ function playerController:OnActivate()
 	self.inputMouseXHandler = InputEventNotificationBus.Connect(self, InputEventNotificationId("MouseX"))
 --	self.inputMouseYHandler = InputEventNotificationBus.Connect(self, InputEventNotificationId("MouseY"))
 	self.consoleHandler = ConsoleNotificationBus.Connect(self)
+	self.ScriptEventHandler = GamePlay.Connect(self)
+	self.ScriptEventHandlerDmg = HitSE.Connect(self, self.entityId)
 --_______________________________________________Setting up vars
 	self.t = 0
 	self.stp = {showtime = false}
@@ -30,6 +32,12 @@ function playerController:OnActivate()
 	self.jumpTime = 0.5
 	self.playedSound = false
 	self.stepTime = 0
+	self.fallingTime = 0
+	self.isTheGameStarted = false
+	self.health = 100
+	self.hudEntity = nil
+	self.healthTextElement = nil
+	self.isTheHudLoaded = false
 	
 	--self.CamRot = self.Properties.CamRot
 	self.cc = 
@@ -52,6 +60,8 @@ function playerController:OnDeactivate()
 	self.inputRLHandler:Disconnect()
 	self.consoleHandler:Disconnect()
 	self.inputMouseXHandler:Disconnect()
+	self.ScriptEventHandlerDmg:Disconnect()
+	self.ScriptEventHandler:Disconnect()
 --	self.inputMouseYHandler :Disconnect()
 end
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -88,32 +98,49 @@ end
 
 --________________________________________________________________ TICK ________________________________________________________________
 function playerController:OnTick(dt)
-	self:ShowTime(self, dt)
-	self:CharacterMovement(self, dt)
-	if self.isJumping then
-		if not (CharacterGameplayRequestBus.Event.IsOnGround(self.entityId)) or self.jumpTime > 0 then
-			if not self.playedSound then
-				AudioTriggerComponentRequestBus.Event.Play(self.entityId)
-				self.playedSound = true
+	if self.isTheGameStarted then
+		if not self.isTheHudLoaded then
+			self.hudEntity = find_game_entity("Crosshair")
+			self.uiCanvas = UiCanvasAssetRefBus.Event.LoadCanvas(self.hudEntity)
+			self.healthTextElement = UiCanvasBus.Event.FindElementByName(self.uiCanvas, "HP TEXT")
+			self.isTheHudLoaded = true
+		end
+		self:UpdateHealth(self)
+		self:ShowTime(self, dt)
+		self:CharacterMovement(self, dt)
+		if self.isJumping then
+			if not (CharacterGameplayRequestBus.Event.IsOnGround(self.entityId)) or self.jumpTime > 0 then
+				if not self.playedSound then
+					AudioTriggerComponentRequestBus.Event.Play(self.entityId)
+					self.playedSound = true
+				end
+				self.jumpTime = self.jumpTime - dt;
+				--if self.jumpTime < 0.35 then
+					CharacterControllerRequestBus.Event.AddVelocity(self.entityId, Vector3(0,0,10));
+				--end
+			else 
+				--Debug.Log("Finished jumping")
+				self.playedSound = false;
+				self.isJumping = false
+				self.jumpTime = 0.5;
 			end
-			self.jumpTime = self.jumpTime - dt;
-			--if self.jumpTime < 0.35 then
-				CharacterControllerRequestBus.Event.AddVelocity(self.entityId, Vector3(0,0,10));
-			--end
-		else 
-			--Debug.Log("Finished jumping")
-			self.playedSound = false;
-			self.isJumping = false
-			self.jumpTime = 0.5;
 		end
 	end		
 end
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+--________________________________________________________________ SCRIPT EVENTS ________________________________________________________________
+function playerController:ReceiveHit(damage ,entityId)
+	--Debug.Log("Received "..tostring(damage).." damage")
+	self.health = self.health - damage
+end
 
 
-
-
+function playerController:StartGame()
+	--Debug.Log("Starting the game...")
+	self.isTheGameStarted = true
+end
+--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 --________________________________________________________________ INPUT ________________________________________________________________
 function playerController:OnPressed(value)
@@ -202,13 +229,7 @@ function playerController:OnReleased(value)
 end
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-
-
-
-
-
-
---________________________________________________________________ OTHER ________________________________________________________________
+--________________________________________________________________ Movement ________________________________________________________________
 function playerController:CharacterMovement(self, dt)
 	--DebugDrawRequestBus.Broadcast.DrawTextOnScreen(tostring(self.inputFB), Color(100,0,0,1), 0.001)
 	--DebugDrawRequestBus.Broadcast.DrawTextOnScreen(tostring(self.inputRL), Color(0,100,0,1), 0.001)
@@ -262,6 +283,15 @@ function playerController:CharacterMovement(self, dt)
 
 end
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+--________________________________________________________________ Update Health on UI ________________________________________________________________
+
+function playerController:UpdateHealth(self)
+	UiTextBus.Event.SetText(self.healthTextElement, "Health: "..tostring(self.health))
+end
+
+--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 
 
 return playerController

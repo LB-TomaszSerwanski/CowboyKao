@@ -66,7 +66,10 @@
                 "Component_[11989352982356086711]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 11989352982356086711,
-                    "Parent Entity": "ContainerEntity"
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 0.30000001192092898
+                    }
                 },
                 "Component_[15759035715879750133]": {
                     "$type": "EditorInspectorComponent",
@@ -126,6 +129,11 @@
                                 "assetHint": "objects/_primitives/_sphere_1x1.pxmesh"
                             },
                             "Configuration": {
+                                "Scale": [
+                                    0.30000001192092898,
+                                    0.30000001192092898,
+                                    0.30000001192092898
+                                ],
                                 "PhysicsAsset": {
                                     "assetId": {
                                         "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
@@ -165,7 +173,7 @@
                                     "$type": "AzFramework::ScriptPropertyNumber",
                                     "id": 254213878,
                                     "name": "Speed",
-                                    "value": 30.0
+                                    "value": 50.0
                                 }
                             ]
                         },
