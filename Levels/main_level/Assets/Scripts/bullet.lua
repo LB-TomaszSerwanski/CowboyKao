@@ -7,9 +7,10 @@ local bullet =
 }
 
 function bullet:OnActivate()
+	self.ScriptEventHandler = HitSE.Connect(self, self.entityId)
 	self.lifeTime = 2;
 	self.Speed = self.Properties.Speed
-	self.forward = EntityTransform_VM.GetEntityRight(self.entityId, 1)
+	self.forward = EntityEntity_VM.GetEntityRight(self.entityId, 1)
 	
 --________________________________________________TRIGGER_____________________________________________
 	self.triggerEnterBusId = SimulatedBody.GetOnTriggerEnterEvent(self.entityId);
