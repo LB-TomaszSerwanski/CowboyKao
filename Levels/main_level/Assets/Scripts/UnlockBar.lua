@@ -4,7 +4,11 @@ local unlockBar =
 
 function unlockBar:OnActivate()
 	self.ScriptEventHandler = HitSE.Connect(self, self.entityId)
-	self.health = 3
+	if String.EndsWith(GameEntityContextRequestBus.Broadcast.GetEntityName(self.entityId), "2",0) then
+		self.health = 2
+	else 
+		self.health = 3
+	end
 	self.timeBetweenEvents = 0
 	self.tickHandler = TickBus:Connect(self)
 	self.eventReceived = false

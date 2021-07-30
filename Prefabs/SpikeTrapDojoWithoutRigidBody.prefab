@@ -195,7 +195,7 @@
                 "Component_[3429597753281193685]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 3429597753281193685,
-                    "Parent Entity": "ContainerEntity",
+                    "Parent Entity": "Entity_[50091667571853]",
                     "Transform Data": {
                         "Translate": [
                             -6.767544269561768,
@@ -343,7 +343,7 @@
                 "Component_[3429597753281193685]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 3429597753281193685,
-                    "Parent Entity": "ContainerEntity",
+                    "Parent Entity": "Entity_[50091667571853]",
                     "Transform Data": {
                         "Translate": [
                             0.0030657052993774416,
@@ -530,7 +530,7 @@
                 "Component_[3429597753281193685]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 3429597753281193685,
-                    "Parent Entity": "ContainerEntity",
+                    "Parent Entity": "Entity_[50091667571853]",
                     "Transform Data": {
                         "Translate": [
                             13.593950271606446,
@@ -756,10 +756,10 @@
                 "Component_[3429597753281193685]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 3429597753281193685,
-                    "Parent Entity": "ContainerEntity",
+                    "Parent Entity": "Entity_[50091667571853]",
                     "Transform Data": {
                         "Translate": [
-                            18.687944412231447,
+                            18.687942504882814,
                             0.0,
                             0.0
                         ]
@@ -943,10 +943,10 @@
                 "Component_[3429597753281193685]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 3429597753281193685,
-                    "Parent Entity": "ContainerEntity",
+                    "Parent Entity": "Entity_[50091667571853]",
                     "Transform Data": {
                         "Translate": [
-                            -18.7841854095459,
+                            -18.78418731689453,
                             0.0,
                             0.0
                         ]
@@ -1130,7 +1130,7 @@
                 "Component_[3429597753281193685]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 3429597753281193685,
-                    "Parent Entity": "ContainerEntity",
+                    "Parent Entity": "Entity_[50091667571853]",
                     "Transform Data": {
                         "Translate": [
                             -13.523576736450196,
@@ -1278,7 +1278,7 @@
                 "Component_[3429597753281193685]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 3429597753281193685,
-                    "Parent Entity": "ContainerEntity",
+                    "Parent Entity": "Entity_[50091667571853]",
                     "Transform Data": {
                         "Translate": [
                             6.790347099304199,
@@ -1357,6 +1357,117 @@
                 "Component_[7911102819364364052]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 7911102819364364052
+                }
+            }
+        },
+        "Entity_[50091667571853]": {
+            "Id": "Entity_[50091667571853]",
+            "Name": "Entity5",
+            "Components": {
+                "Component_[10982617050674067963]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10982617050674067963
+                },
+                "Component_[11342232337591442820]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11342232337591442820
+                },
+                "Component_[12485413036132526955]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12485413036132526955
+                },
+                "Component_[13417220223150437143]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13417220223150437143
+                },
+                "Component_[14866184804441688832]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 14866184804441688832,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "Position": [
+                            0.0,
+                            0.0,
+                            2.0
+                        ],
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                50.0,
+                                5.0,
+                                2.0
+                            ]
+                        }
+                    }
+                },
+                "Component_[16338722600436761589]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16338722600436761589
+                },
+                "Component_[4772882747519444133]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4772882747519444133
+                },
+                "Component_[5481096456194392660]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5481096456194392660
+                },
+                "Component_[6827700610375113579]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6827700610375113579
+                },
+                "Component_[7224214097940445550]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7224214097940445550,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            0.19875526428222657
+                        ]
+                    }
+                },
+                "Component_[7269330131076380549]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7269330131076380549
+                },
+                "Component_[860222252094915667]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 860222252094915667,
+                    "Configuration": {
+                        "entityId": "",
+                        "Gravity Enabled": false,
+                        "Kinematic": true
+                    }
+                },
+                "Component_[9100057022673940016]": {
+                    "$type": "ScriptEditorComponent",
+                    "Id": 9100057022673940016,
+                    "ScriptComponent": {
+                        "Script": {
+                            "assetId": {
+                                "guid": "{6B16EF4D-8FBB-5DCE-8EA2-38B6ED5B3D89}",
+                                "subId": 2
+                            },
+                            "loadBehavior": "QueueLoad",
+                            "assetHint": "levels/main_level/assets/scripts/spiketrap.lua"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{6B16EF4D-8FBB-5DCE-8EA2-38B6ED5B3D89}",
+                            "subId": 2
+                        },
+                        "assetHint": "levels/main_level/assets/scripts/spiketrap.lua"
+                    }
                 }
             }
         }

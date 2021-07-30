@@ -133,6 +133,7 @@ end
 function playerController:ReceiveHit(damage ,entityId)
 	--Debug.Log("Received "..tostring(damage).." damage")
 	self.health = self.health - damage
+	AudioTriggerComponentRequestBus.Event.ExecuteTrigger(self.entityId, "Cowboy_hurt_play")
 end
 
 
