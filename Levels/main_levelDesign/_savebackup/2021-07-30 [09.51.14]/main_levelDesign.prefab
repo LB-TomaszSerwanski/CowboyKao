@@ -10856,92 +10856,6 @@
                 }
             }
         },
-        "Entity_[4193824050866]": {
-            "Id": "Entity_[4193824050866]",
-            "Name": "LUA_TEMP",
-            "Components": {
-                "Component_[14128608794721293061]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 14128608794721293061
-                },
-                "Component_[14502791482868921001]": {
-                    "$type": "SelectionComponent",
-                    "Id": 14502791482868921001
-                },
-                "Component_[15588464498602294710]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 15588464498602294710
-                },
-                "Component_[16214370440967041096]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 16214370440967041096
-                },
-                "Component_[17935254625723709074]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 17935254625723709074,
-                    "Parent Entity": "Entity_[1146574390643]"
-                },
-                "Component_[18389184665870653900]": {
-                    "$type": "ScriptEditorComponent",
-                    "Id": 18389184665870653900,
-                    "ScriptComponent": {
-                        "Properties": {
-                            "Properties": [
-                                {
-                                    "$type": "AZ::ScriptPropertyGenericClassArray",
-                                    "id": 3044643913,
-                                    "name": "ScriptEvents",
-                                    "values": [
-                                        {
-                                            "TypeId": "{9BF12D72-9FE5-4F0E-A115-B92D99FB1CD7}"
-                                        },
-                                        {
-                                            "TypeId": "{9BF12D72-9FE5-4F0E-A115-B92D99FB1CD7}"
-                                        }
-                                    ],
-                                    "elementType": "{9BF12D72-9FE5-4F0E-A115-B92D99FB1CD7}"
-                                }
-                            ]
-                        },
-                        "Script": {
-                            "assetId": {
-                                "guid": "{4EA52CC9-09E4-5A35-A8F3-7DEF1A4078DF}",
-                                "subId": 2
-                            },
-                            "loadBehavior": "QueueLoad",
-                            "assetHint": "levels/main_level/assets/scripts/temp_lua.lua"
-                        }
-                    },
-                    "ScriptAsset": {
-                        "assetId": {
-                            "guid": "{4EA52CC9-09E4-5A35-A8F3-7DEF1A4078DF}",
-                            "subId": 2
-                        },
-                        "assetHint": "levels/main_level/assets/scripts/temp_lua.lua"
-                    }
-                },
-                "Component_[2160127079853359666]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 2160127079853359666
-                },
-                "Component_[3066706692111507152]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 3066706692111507152
-                },
-                "Component_[4878469539519690389]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 4878469539519690389
-                },
-                "Component_[5717052143121453207]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 5717052143121453207
-                },
-                "Component_[6002468062975923944]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 6002468062975923944
-                }
-            }
-        },
         "Entity_[4558424906578]": {
             "Id": "Entity_[4558424906578]",
             "Name": "BrickWall",
@@ -22378,6 +22292,27 @@
         }
     },
     "Instances": {
+        "Instance_[19927450088078]": {
+            "Source": "Levels/main_level/Assets/PlayerCharacter/Bullet.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[5979446524303545350]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[5979446524303545350]/Transform Data",
+                    "value": {
+                        "Translate": [
+                            0.0,
+                            20.0,
+                            0.0
+                        ]
+                    }
+                }
+            ]
+        },
         "Instance_[2002063803931]": {
             "Source": "Prefabs/PlayerCharacter.prefab",
             "Patches": [
@@ -22417,27 +22352,6 @@
                 {
                     "op": "remove",
                     "path": "/ContainerEntity/Components/Component_[14106031193077901327]/Transform Data/UniformScale"
-                }
-            ]
-        },
-        "Instance_[6044135452266]": {
-            "Source": "Levels/main_level/Assets/PlayerCharacter/Bullet.prefab",
-            "Patches": [
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[5979446524303545350]/Parent Entity",
-                    "value": "../Entity_[1146574390643]"
-                },
-                {
-                    "op": "add",
-                    "path": "/ContainerEntity/Components/Component_[5979446524303545350]/Transform Data",
-                    "value": {
-                        "Translate": [
-                            0.0,
-                            20.0,
-                            0.0
-                        ]
-                    }
                 }
             ]
         }
