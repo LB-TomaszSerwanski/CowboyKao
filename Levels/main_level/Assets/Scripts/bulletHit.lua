@@ -14,7 +14,7 @@ function bulletHit:OnDeactivate()
 end
 
 function bulletHit:ReceiveHit(damage)
-	Debug.Log("Received "..tostring(damage) .. " damage")
+	--Debug.Log("Received "..tostring(damage) .. " damage")
 end
 
 return bulletHit

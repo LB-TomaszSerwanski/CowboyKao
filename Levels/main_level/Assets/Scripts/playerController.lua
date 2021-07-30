@@ -129,13 +129,18 @@ function playerController:OnTick(dt)
 end
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+--________________________________________________________________ SCRIPT EVENTS ________________________________________________________________
 function playerController:ReceiveHit(damage ,entityId)
-	Debug.Log("Received "..tostring(damage).." damage")
+	--Debug.Log("Received "..tostring(damage).." damage")
 	self.health = self.health - damage
 end
 
 
-
+function playerController:StartGame()
+	--Debug.Log("Starting the game...")
+	self.isTheGameStarted = true
+end
+--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 --________________________________________________________________ INPUT ________________________________________________________________
 function playerController:OnPressed(value)
@@ -224,16 +229,7 @@ function playerController:OnReleased(value)
 end
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
---________________________________________________________________ SCRIPT EVENTS ________________________________________________________________
-function playerController:StartGame()
-	Debug.Log("Starting the game...")
-	self.isTheGameStarted = true
-end
-
-
-
-
---________________________________________________________________ OTHER ________________________________________________________________
+--________________________________________________________________ Movement ________________________________________________________________
 function playerController:CharacterMovement(self, dt)
 	--DebugDrawRequestBus.Broadcast.DrawTextOnScreen(tostring(self.inputFB), Color(100,0,0,1), 0.001)
 	--DebugDrawRequestBus.Broadcast.DrawTextOnScreen(tostring(self.inputRL), Color(0,100,0,1), 0.001)
@@ -288,9 +284,14 @@ function playerController:CharacterMovement(self, dt)
 end
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+--________________________________________________________________ Update Health on UI ________________________________________________________________
+
 function playerController:UpdateHealth(self)
 	UiTextBus.Event.SetText(self.healthTextElement, "Health: "..tostring(self.health))
 end
+
+--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 
 
 return playerController
