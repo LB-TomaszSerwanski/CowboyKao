@@ -1,0 +1,70 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{50B71761-48B2-5332-BEEE-1D69EB449FB3}",
+            "name": "Mountain Wall",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Light",
+                    "RootNode.Camera",
+                    "RootNode.Mountain Valley Nepal"
+                ]
+            },
+            "MaterialSlots": [
+                "ID30",
+                "ID59",
+                "ID339",
+                "ID352",
+                "ID365",
+                "ID950",
+                "ID1351",
+                "ID1364",
+                "ID1430",
+                "ID1635",
+                "ID1786",
+                "ID1799"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Mountain Wall",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Light",
+                    "RootNode.Camera",
+                    "RootNode.Mountain Valley Nepal"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{C5291CE4-FE1A-5E07-8A13-FA24ABAD7C99}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}

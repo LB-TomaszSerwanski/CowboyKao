@@ -1,0 +1,52 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{3299F6AB-AB08-5579-9A20-A5888788194C}",
+            "name": "TempleFacade",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Light",
+                    "RootNode.Camera",
+                    "RootNode.Japanese_Shrine"
+                ]
+            },
+            "MaterialSlots": [
+                "Japanese_Shrine_Mat"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "TempleFacade",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Light",
+                    "RootNode.Camera",
+                    "RootNode.Japanese_Shrine"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{B15D25A4-7FD6-5CD3-987C-E3287A340766}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}

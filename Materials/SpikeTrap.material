@@ -1,0 +1,17 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Levels/MSZ Assets/Spikes/textures/Mat_spikes_DiffuseGlossiness.png"
+        },
+        "metallic": {
+            "textureMap": "Levels/MSZ Assets/Spikes/textures/Mat_spikes_Metalness.png"
+        },
+        "normal": {
+            "textureMap": "Levels/MSZ Assets/Spikes/textures/Mat_spikes_Normal.png"
+        }
+    }
+}

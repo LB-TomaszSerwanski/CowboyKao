@@ -1,0 +1,48 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{20C1C381-92EC-5484-AE22-06C45B498039}",
+            "name": "tatami",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Model",
+                    "RootNode.Model.Mesh1"
+                ]
+            },
+            "MaterialSlots": [
+                "_12",
+                "BackColor"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "tatami",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Model",
+                    "RootNode.Model.Mesh1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{911BE75C-E457-53D1-8FB1-BA8D449984B6}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}

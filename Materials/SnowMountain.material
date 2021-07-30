@@ -1,0 +1,22 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Levels/MSZ Assets/Mountains/Snow mountain texture/snow base colour.tif"
+        },
+        "emissive": {
+            "enable": true,
+            "intensity": -1.0,
+            "textureMap": "Levels/MSZ Assets/Mountains/Snow mountain texture/snow base colour.tif"
+        },
+        "normal": {
+            "textureMap": "Levels/MSZ Assets/Mountains/Snow mountain texture/snow normal.tif"
+        },
+        "roughness": {
+            "textureMap": "Levels/MSZ Assets/Mountains/Snow mountain texture/snow bump.jpg"
+        }
+    }
+}

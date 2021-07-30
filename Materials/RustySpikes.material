@@ -1,0 +1,25 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Levels/MSZ Assets/Spikes/SpikeMaterial/grimy-metal-albedo.png"
+        },
+        "emissive": {
+            "enable": true,
+            "intensity": 0.8199999928474426,
+            "textureMap": "Levels/MSZ Assets/Spikes/SpikeMaterial/grimy-metal-albedo.png"
+        },
+        "metallic": {
+            "textureMap": "Levels/MSZ Assets/Spikes/SpikeMaterial/grimy-metal-metalness.png"
+        },
+        "normal": {
+            "textureMap": "Levels/MSZ Assets/Spikes/SpikeMaterial/grimy-metal-normal-dx.png"
+        },
+        "roughness": {
+            "textureMap": "Levels/MSZ Assets/Spikes/SpikeMaterial/grimy-metal-roughness.png"
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{A8125B02-B0F5-52BD-8DF5-EBDAC4EAA2D0}",
+            "name": "shoji_long001",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Model",
+                    "RootNode.Model.Mesh1"
+                ]
+            },
+            "MaterialSlots": [
+                "_11",
+                "BackColor",
+                "_10",
+                "FrontColor"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "shoji_long001",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Model",
+                    "RootNode.Model.Mesh1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{02FD3A09-C5C5-577B-AA1F-42E13C155B57}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}
