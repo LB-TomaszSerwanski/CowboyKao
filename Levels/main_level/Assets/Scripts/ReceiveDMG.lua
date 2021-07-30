@@ -11,6 +11,7 @@ function receiveDmg:OnActivate()
 end
 
 function receiveDmg:ReceiveHit(entityId, damage)
+	Debug.Log("Entity: "..GameEntityContextRequestBus.Broadcast.GetEntityName(self.entityId).." received dmg")
 	if self.Properties.NextEntityName == "" then
 		Debug.Log("No Entity selected to send")
 	else
@@ -19,6 +20,7 @@ function receiveDmg:ReceiveHit(entityId, damage)
 		HitSE.Event.ReceiveHit(self.entityToSend,1)
 	end
 	GameEntityContextRequestBus.Broadcast.DeactivateGameEntity(self.entityId)
+	self.ScriptEventHandler:Disconnect()
 end
 
 return receiveDmg
