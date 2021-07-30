@@ -17,8 +17,8 @@ function bullet:OnActivate()
 	self.triggerEnterBus = self.triggerEnterBusId:Connect(
 		function(x, y)
 			self.body1 = TriggerEvent.GetOtherEntityId(y)
-			Debug.Log("Sending event to Entity: "..GameEntityContextRequestBus.Broadcast.GetEntityName(self.body1))
-			HitSE.Event.ReceiveHit(self.body1, 40)
+			--Debug.Log("Sending event to Entity: "..GameEntityContextRequestBus.Broadcast.GetEntityName(self.body1))
+			HitSE.Event.ReceiveHit(self.body1, tonumber(40))
 			self.children = TransformBus.Event.GetChildren(self.entityId)
 			for i = 1,#self.children,1 do
 				GameEntityContextRequestBus.Broadcast.DeactivateGameEntity(self.children[i])
